@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# git pre-commit hook that runs a clang-format stylecheck
+# Please put this file into your `.git/hooks` folder to run this check before each commit locally.
+set -eu
+
+# iterate over all staged files
+for file in $(git diff --cached --diff-filter=ACMRT --name-only);
+do
+    # ignore all but C/C++ source files
+    if [[ $file != *.[ch] && $file != *.[ch]pp && $file != *.cu ]]; then
+        continue;
+    fi
+    # check if clang-format produces a non-empty diff
+    if [[ $(git clang-format-10 --diff -q -- $file) != "" ]]; then
+        printf "Clang-format violation for '$file'. Please fix before commiting.\n"
+        exit 1
+    fi
+done
+
+# report success
+printf "Files in this commit comply with the clang-format rules\n"
+exit 0

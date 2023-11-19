@@ -1,0 +1,14 @@
+boto3
+fbprophet
+hvplot
+ipywidgets
+jupyter
+kaleido
+matplotlib
+pandas
+plotly
+pystan==2.19.1.1
+QuantStats
+seaborn
+streamlit
+yfinance

@@ -1,0 +1,787 @@
+## income_statement
+
+- reportedCurrency
+- cik
+  - Central Index Key - ID used for SEC filings
+- fillingDate
+- acceptedDate
+- revenue
+  - Amount of money recieved as a result of a business's activities
+- costOfRevenue
+  - total cost of manufacturing and delivering a product or service to consumers
+- grossProfit
+  - revenue - cost of revenue
+- grossProfitRatio
+  - gross profit / revenue
+- researchAndDevelopmentExpenses
+- generalAndAdministrativeExpenses
+- sellingAndMarketingExpenses
+- sellingGeneralAndAdministrativeExpenses
+- otherExpenses
+- operatingExpenses
+  - Rent, payroll, insurance etc
+- costAndExpenses
+- interestIncome
+- interestExpense
+- depreciationAndAmortization
+  - Amortization is the practice of spreading an intangible asset's cost over that asset's useful life.
+  - Depreciation is the expensing a fixed asset as it is used to reflect its anticipated deterioration.
+- ebitda
+  - Earnings Before Interest, Taxes, Depreciation and Amortization
+  - = Net Income + Taxes + Interest Expense + Depreciation & Amortization
+  - = Operating Income + Depreciation & Amortization
+- ebitdaratio
+  - AKA EBITDA Margin
+  - Profitability ratio
+  - EBITDA / revenue
+- operatingIncome
+  - profit realized from a business's operations after deducting operating expenses such as wages, depreciation, and cost of goods sold (COGS)
+  - = Gross Profit - Operating Expenses - Depreciation - Amortization
+- operatingIncomeRatio
+  - AKA Operating Margin
+  - measures how much profit a company makes on a dollar of sales after paying for variable costs of production, such as wages and raw materials, but before paying interest or tax
+  - A measure of how efficient the operations are
+  - = Operating Earnings / Revenue
+- totalOtherIncomeExpensesNet
+- incomeBeforeTax
+- incomeBeforeTaxRatio
+- incomeTaxExpense
+- netIncome
+  - Revenues minus expenses, interest, and taxes
+- netIncomeRatio
+  - Net Income / Revenue
+- eps
+  - Earnings Per Share
+  - (Net Income - Preferred Stock Divs) / Average Outstanding Shares
+- epsdiluted
+  - EPS take into account only common shares, while diluted EPS includes convertible securities, employee stock options, and secondary offerings.
+- weightedAverageShsOut
+  - Weighted Average Shares Outstanding
+- weightedAverageShsOutDil
+  - Diluted Weighted Average Shares Outstanding
+
+## income_statement_quarterly
+
+- reportedCurrency
+- cik
+- fillingDate
+- acceptedDate
+- revenue
+- costOfRevenue
+- grossProfit
+- grossProfitRatio
+- researchAndDevelopmentExpenses
+- generalAndAdministrativeExpenses
+- sellingAndMarketingExpenses
+- sellingGeneralAndAdministrativeExpenses
+- otherExpenses
+- operatingExpenses
+- costAndExpenses
+- interestIncome
+- interestExpense
+- depreciationAndAmortization
+- ebitda
+- ebitdaratio
+- operatingIncome
+- operatingIncomeRatio
+- totalOtherIncomeExpensesNet
+- incomeBeforeTax
+- incomeBeforeTaxRatio
+- incomeTaxExpense
+- netIncome
+- netIncomeRatio
+- eps
+- epsdiluted
+- weightedAverageShsOut
+- weightedAverageShsOutDil
+
+## income_statement_growth
+
+- date
+- growthRevenue
+- growthCostOfRevenue
+- growthGrossProfit
+- growthGrossProfitRatio
+- growthResearchAndDevelopmentExpenses
+- growthGeneralAndAdministrativeExpenses
+- growthSellingAndMarketingExpenses
+- growthOtherExpenses
+- growthOperatingExpenses
+- growthCostAndExpenses
+- growthInterestExpense
+- growthDepreciationAndAmortization
+- growthEBITDA
+- growthEBITDARatio
+- growthOperatingIncome
+- growthOperatingIncomeRatio
+- growthTotalOtherIncomeExpensesNet
+- growthIncomeBeforeTax
+- growthIncomeBeforeTaxRatio
+- growthIncomeTaxExpense
+- growthNetIncome
+- growthNetIncomeRatio
+- growthEPS
+- growthEPSDiluted
+- growthWeightedAverageShsOut
+- growthWeightedAverageShsOutDil
+
+## cashflow_statement
+
+- reportedCurrency
+- cik
+- fillingDate
+- acceptedDate
+- netIncome
+- depreciationAndAmortization
+- deferredIncomeTax
+- stockBasedCompensation
+- changeInWorkingCapital
+  - Working Capital is a liquidity metric expressed as the difference between a company's current assets and its current liabilities
+  - = current assets - current liabilities
+- accountsReceivables
+  - Funds that customers owe your company for products or services that have been invoiced
+- inventory
+  - Goods in stock
+- accountsPayables
+  - Funds owed for products / services received
+- otherWorkingCapital
+- otherNonCashItems
+- netCashProvidedByOperatingActivities
+- investmentsInPropertyPlantAndEquipment
+- acquisitionsNet
+- purchasesOfInvestments
+- salesMaturitiesOfInvestments
+- otherInvestingActivites
+- netCashUsedForInvestingActivites
+- debtRepayment
+- commonStockIssued
+- commonStockRepurchased
+- dividendsPaid
+- otherFinancingActivites
+- netCashUsedProvidedByFinancingActivities
+- effectOfForexChangesOnCash
+- netChangeInCash
+- cashAtEndOfPeriod
+- cashAtBeginningOfPeriod
+- operatingCashFlow
+- capitalExpenditure
+- freeCashFlow
+  - The cash that a company generates after accounting for cash outflows to support operations and maintain its capital assets
+
+## cashflow_statement_quarterly
+
+- reportedCurrency
+- cik
+- fillingDate
+- acceptedDate
+- netIncome
+- depreciationAndAmortization
+- deferredIncomeTax
+- stockBasedCompensation
+- changeInWorkingCapital
+- accountsReceivables
+- inventory
+- accountsPayables
+- otherWorkingCapital
+- otherNonCashItems
+- netCashProvidedByOperatingActivities
+- investmentsInPropertyPlantAndEquipment
+- acquisitionsNet
+- purchasesOfInvestments
+- salesMaturitiesOfInvestments
+- otherInvestingActivites
+- netCashUsedForInvestingActivites
+- debtRepayment
+- commonStockIssued
+- commonStockRepurchased
+- dividendsPaid
+- otherFinancingActivites
+- netCashUsedProvidedByFinancingActivities
+- effectOfForexChangesOnCash
+- netChangeInCash
+- cashAtEndOfPeriod
+- cashAtBeginningOfPeriod
+- operatingCashFlow
+- capitalExpenditure
+- freeCashFlow
+
+## cashflow_statement_growth
+
+- date
+- growthNetIncome
+- growthDepreciationAndAmortization
+- growthDeferredIncomeTax
+- growthStockBasedCompensation
+- growthChangeInWorkingCapital
+- growthAccountsReceivables
+- growthInventory
+- growthAccountsPayables
+- growthOtherWorkingCapital
+- growthOtherNonCashItems
+- growthNetCashProvidedByOperatingActivites
+- growthInvestmentsInPropertyPlantAndEquipment
+- growthAcquisitionsNet
+- growthPurchasesOfInvestments
+- growthSalesMaturitiesOfInvestments
+- growthOtherInvestingActivites
+- growthNetCashUsedForInvestingActivites
+- growthDebtRepayment
+- growthCommonStockIssued
+- growthCommonStockRepurchased
+- growthDividendsPaid
+- growthOtherFinancingActivites
+- growthNetCashUsedProvidedByFinancingActivities
+- growthEffectOfForexChangesOnCash
+- growthNetChangeInCash
+- growthCashAtEndOfPeriod
+- growthCashAtBeginningOfPeriod
+- growthOperatingCashFlow
+- growthCapitalExpenditure
+- growthFreeCashFlow
+
+## balance_sheet_statement
+
+- reportedCurrency
+- cik
+- fillingDate
+- acceptedDate
+- cashAndCashEquivalents
+- shortTermInvestments
+- cashAndShortTermInvestments
+- netReceivables
+- inventory
+- otherCurrentAssets
+- totalCurrentAssets
+- propertyPlantEquipmentNet
+- goodwill
+  - associated with the purchase of one company by another. It represents value that can give the acquiring company a competitive advantage. Specifically, a goodwill definition is the portion of the purchase price that is higher than the sum of the net fair value of all of the assets purchased in the acquisition and the liabilities assumed in the process.
+- intangibleAssets
+  - An non-physical asset, e.g. goodwill, brand recognition and intellectual property, such as patents, trademarks, and copyrights
+- goodwillAndIntangibleAssets
+- longTermInvestments
+- taxAssets
+- otherNonCurrentAssets
+- totalNonCurrentAssets
+- otherAssets
+- totalAssets
+- accountPayables
+- shortTermDebt
+- taxPayables
+- deferredRevenue
+- otherCurrentLiabilities
+- totalCurrentLiabilities
+- longTermDebt
+- deferredRevenueNonCurrent
+- deferredTaxLiabilitiesNonCurrent
+- otherNonCurrentLiabilities
+- totalNonCurrentLiabilities
+- otherLiabilities
+- capitalLeaseObligations
+- totalLiabilities
+- preferredStock
+- commonStock
+- retainedEarnings
+- accumulatedOtherComprehensiveIncomeLoss
+- othertotalStockholdersEquity
+- totalStockholdersEquity
+- totalLiabilitiesAndStockholdersEquity
+- minorityInterest
+  - stake in the company that is otherwise controlled by a parent company
+- totalEquity
+  - the amount of money that would be returned to a company's shareholders if all of the assets were liquidated and all of the company's debt was paid off in the case of liquidation
+- totalLiabilitiesAndTotalEquity
+- totalInvestments
+- totalDebt
+- netDebt
+
+## balance_sheet_statement_quarterly
+
+- reportedCurrency
+- cik
+- fillingDate
+- acceptedDate
+- cashAndCashEquivalents
+- shortTermInvestments
+- cashAndShortTermInvestments
+- netReceivables
+- inventory
+- otherCurrentAssets
+- totalCurrentAssets
+- propertyPlantEquipmentNet
+- goodwill
+- intangibleAssets
+- goodwillAndIntangibleAssets
+- longTermInvestments
+- taxAssets
+- otherNonCurrentAssets
+- totalNonCurrentAssets
+- otherAssets
+- totalAssets
+- accountPayables
+- shortTermDebt
+- taxPayables
+- deferredRevenue
+- otherCurrentLiabilities
+- totalCurrentLiabilities
+- longTermDebt
+- deferredRevenueNonCurrent
+- deferredTaxLiabilitiesNonCurrent
+- otherNonCurrentLiabilities
+- totalNonCurrentLiabilities
+- otherLiabilities
+- capitalLeaseObligations
+- totalLiabilities
+- preferredStock
+- commonStock
+- retainedEarnings
+- accumulatedOtherComprehensiveIncomeLoss
+- othertotalStockholdersEquity
+- totalStockholdersEquity
+- totalLiabilitiesAndStockholdersEquity
+- minorityInterest
+- totalEquity
+- totalLiabilitiesAndTotalEquity
+- totalInvestments
+- totalDebt
+- netDebt
+
+## balance_sheet_statement_growth
+
+- date
+- growthCashAndCashEquivalents
+- growthShortTermInvestments
+- growthCashAndShortTermInvestments
+- growthNetReceivables
+- growthInventory
+- growthOtherCurrentAssets
+- growthTotalCurrentAssets
+- growthPropertyPlantEquipmentNet
+- growthGoodwill
+- growthIntangibleAssets
+- growthGoodwillAndIntangibleAssets
+- growthLongTermInvestments
+- growthTaxAssets
+- growthOtherNonCurrentAssets
+- growthTotalNonCurrentAssets
+- growthOtherAssets
+- growthTotalAssets
+- growthAccountPayables
+- growthShortTermDebt
+- growthTaxPayables
+- growthDeferredRevenue
+- growthOtherCurrentLiabilities
+- growthTotalCurrentLiabilities
+- growthLongTermDebt
+- growthDeferredRevenueNonCurrent
+- growthDeferrredTaxLiabilitiesNonCurrent
+- growthOtherNonCurrentLiabilities
+- growthTotalNonCurrentLiabilities
+- growthOtherLiabilities
+- growthTotalLiabilities
+- growthCommonStock
+- growthRetainedEarnings
+- growthAccumulatedOtherComprehensiveIncomeLoss
+- growthOthertotalStockholdersEquity
+- growthTotalStockholdersEquity
+- growthTotalLiabilitiesAndStockholdersEquity
+- growthTotalInvestments
+- growthTotalDebt
+- growthNetDebt
+
+## discounted_cash_flow
+
+- date
+- dcf
+- price
+
+## advanced_discounted_cash_flow
+
+- revenue
+- revenuePercentage
+- ebitda
+- ebitdaPercentage
+- ebit
+- ebitPercentage
+- depreciation
+- depreciationPercentage
+- totalCash
+- totalCashPercentage
+- receivables
+- receivablesPercentage
+- inventories
+- inventoriesPercentage
+- payable
+- payablePercentage
+- capitalExpenditure
+- capitalExpenditurePercentage
+- price
+- beta
+- dilutedSharesOutstanding
+- costofDebt
+- taxRate
+- afterTaxCostOfDebt
+- riskFreeRate
+- marketRiskPremium
+- costOfEquity
+- totalDebt
+- totalEquity
+- totalCapital
+- debtWeighting
+- equityWeighting
+- wacc
+- taxRateCash
+- ebiat
+- ufcf
+- sumPvUfcf
+- longTermGrowthRate
+- terminalValue
+- presentTerminalValue
+- enterpriseValue
+- netDebt
+- equityValue
+- equityValuePerShare
+- freeCashFlowT1
+
+## advanced_levered_discounted_cash_flow
+
+- revenue
+- revenuePercentage
+- capitalExpenditure
+- capitalExpenditurePercentage
+- price
+- beta
+- dilutedSharesOutstanding
+- costofDebt
+- taxRate
+- afterTaxCostOfDebt
+- riskFreeRate
+- marketRiskPremium
+- costOfEquity
+- totalDebt
+- totalEquity
+- totalCapital
+- debtWeighting
+- equityWeighting
+- wacc
+- operatingCashFlow
+- pvLfcf
+- sumPvLfcf
+- longTermGrowthRate
+- freeCashFlow
+- terminalValue
+- presentTerminalValue
+- enterpriseValue
+- netDebt
+- equityValue
+- equityValuePerShare
+- freeCashFlowT1
+- operatingCashFlowPercentage
+
+## key_metrics
+
+- revenuePerShare
+- netIncomePerShare
+- operatingCashFlowPerShare
+- freeCashFlowPerShare
+- cashPerShare
+- bookValuePerShare
+- tangibleBookValuePerShare
+- shareholdersEquityPerShare
+- interestDebtPerShare
+- marketCap
+- enterpriseValue
+- peRatio
+- priceToSalesRatio
+- pocfratio
+- pfcfRatio
+- pbRatio
+- ptbRatio
+- evToSales
+- enterpriseValueOverEBITDA
+- evToOperatingCashFlow
+- evToFreeCashFlow
+- earningsYield
+- freeCashFlowYield
+- debtToEquity
+- debtToAssets
+- netDebtToEBITDA
+- currentRatio
+- interestCoverage
+- incomeQuality
+- dividendYield
+- payoutRatio
+- salesGeneralAndAdministrativeToRevenue
+- researchAndDdevelopementToRevenue
+- intangiblesToTotalAssets
+- capexToOperatingCashFlow
+- capexToRevenue
+- capexToDepreciation
+- stockBasedCompensationToRevenue
+- grahamNumber
+- roic
+- returnOnTangibleAssets
+- grahamNetNet
+- workingCapital
+- tangibleAssetValue
+- netCurrentAssetValue
+- investedCapital
+- averageReceivables
+- averagePayables
+- averageInventory
+- daysSalesOutstanding
+- daysPayablesOutstanding
+- daysOfInventoryOnHand
+- receivablesTurnover
+- payablesTurnover
+- inventoryTurnover
+- roe
+- capexPerShare
+
+## key_metrics_quarterly
+
+- revenuePerShare
+- netIncomePerShare
+- operatingCashFlowPerShare
+- freeCashFlowPerShare
+- cashPerShare
+- bookValuePerShare
+- tangibleBookValuePerShare
+- shareholdersEquityPerShare
+- interestDebtPerShare
+- marketCap
+- enterpriseValue
+- peRatio
+- priceToSalesRatio
+- pocfratio
+- pfcfRatio
+- pbRatio
+- ptbRatio
+- evToSales
+- enterpriseValueOverEBITDA
+- evToOperatingCashFlow
+- evToFreeCashFlow
+- earningsYield
+- freeCashFlowYield
+- debtToEquity
+- debtToAssets
+- netDebtToEBITDA
+- currentRatio
+- interestCoverage
+- incomeQuality
+- dividendYield
+- payoutRatio
+- salesGeneralAndAdministrativeToRevenue
+- researchAndDdevelopementToRevenue
+- intangiblesToTotalAssets
+- capexToOperatingCashFlow
+- capexToRevenue
+- capexToDepreciation
+- stockBasedCompensationToRevenue
+- grahamNumber
+- roic
+- returnOnTangibleAssets
+- grahamNetNet
+- workingCapital
+- tangibleAssetValue
+- netCurrentAssetValue
+- investedCapital
+- averageReceivables
+- averagePayables
+- averageInventory
+- daysSalesOutstanding
+- daysPayablesOutstanding
+- daysOfInventoryOnHand
+- receivablesTurnover
+- payablesTurnover
+- inventoryTurnover
+- roe
+- capexPerShare
+
+## financial_ratios
+
+- currentRatio
+- quickRatio
+- cashRatio
+- daysOfSalesOutstanding
+- daysOfInventoryOutstanding
+- operatingCycle
+- daysOfPayablesOutstanding
+- cashConversionCycle
+- grossProfitMargin
+- operatingProfitMargin
+- pretaxProfitMargin
+- netProfitMargin
+- effectiveTaxRate
+- returnOnAssets
+- returnOnEquity
+- returnOnCapitalEmployed
+- netIncomePerEBT
+- ebtPerEbit
+- ebitPerRevenue
+- debtRatio
+- debtEquityRatio
+- longTermDebtToCapitalization
+- totalDebtToCapitalization
+- interestCoverage
+- cashFlowToDebtRatio
+- companyEquityMultiplier
+- receivablesTurnover
+- payablesTurnover
+- inventoryTurnover
+- fixedAssetTurnover
+- assetTurnover
+- operatingCashFlowPerShare
+- freeCashFlowPerShare
+- cashPerShare
+- payoutRatio
+- operatingCashFlowSalesRatio
+- freeCashFlowOperatingCashFlowRatio
+- cashFlowCoverageRatios
+- shortTermCoverageRatios
+- capitalExpenditureCoverageRatio
+- dividendPaidAndCapexCoverageRatio
+- dividendPayoutRatio
+- priceBookValueRatio
+- priceToBookRatio
+- priceToSalesRatio
+- priceEarningsRatio
+- priceToFreeCashFlowsRatio
+- priceToOperatingCashFlowsRatio
+- priceCashFlowRatio
+- priceEarningsToGrowthRatio
+- priceSalesRatio
+- dividendYield
+- enterpriseValueMultiple
+- priceFairValue
+
+## financial_ratios_quarterly
+
+- currentRatio
+- quickRatio
+- cashRatio
+- daysOfSalesOutstanding
+- daysOfInventoryOutstanding
+- operatingCycle
+- daysOfPayablesOutstanding
+- cashConversionCycle
+- grossProfitMargin
+- operatingProfitMargin
+- pretaxProfitMargin
+- netProfitMargin
+- effectiveTaxRate
+- returnOnAssets
+- returnOnEquity
+- returnOnCapitalEmployed
+- netIncomePerEBT
+- ebtPerEbit
+- ebitPerRevenue
+- debtRatio
+- debtEquityRatio
+- longTermDebtToCapitalization
+- totalDebtToCapitalization
+- interestCoverage
+- cashFlowToDebtRatio
+- companyEquityMultiplier
+- receivablesTurnover
+- payablesTurnover
+- inventoryTurnover
+- fixedAssetTurnover
+- assetTurnover
+- operatingCashFlowPerShare
+- freeCashFlowPerShare
+- cashPerShare
+- payoutRatio
+- operatingCashFlowSalesRatio
+- freeCashFlowOperatingCashFlowRatio
+- cashFlowCoverageRatios
+- shortTermCoverageRatios
+- capitalExpenditureCoverageRatio
+- dividendPaidAndCapexCoverageRatio
+- dividendPayoutRatio
+- priceBookValueRatio
+- priceToBookRatio
+- priceToSalesRatio
+- priceEarningsRatio
+- priceToFreeCashFlowsRatio
+- priceToOperatingCashFlowsRatio
+- priceCashFlowRatio
+- priceEarningsToGrowthRatio
+- priceSalesRatio
+- dividendYield
+- enterpriseValueMultiple
+- priceFairValue
+
+## growth
+
+- revenueGrowth
+- grossProfitGrowth
+- ebitgrowth
+- operatingIncomeGrowth
+- netIncomeGrowth
+- epsgrowth
+- epsdilutedGrowth
+- weightedAverageSharesGrowth
+- weightedAverageSharesDilutedGrowth
+- dividendsperShareGrowth
+- operatingCashFlowGrowth
+- freeCashFlowGrowth
+- tenYRevenueGrowthPerShare
+- fiveYRevenueGrowthPerShare
+- threeYRevenueGrowthPerShare
+- tenYOperatingCFGrowthPerShare
+- fiveYOperatingCFGrowthPerShare
+- threeYOperatingCFGrowthPerShare
+- tenYNetIncomeGrowthPerShare
+- fiveYNetIncomeGrowthPerShare
+- threeYNetIncomeGrowthPerShare
+- tenYShareholdersEquityGrowthPerShare
+- fiveYShareholdersEquityGrowthPerShare
+- threeYShareholdersEquityGrowthPerShare
+- tenYDividendperShareGrowthPerShare
+- fiveYDividendperShareGrowthPerShare
+- threeYDividendperShareGrowthPerShare
+- receivablesGrowth
+- inventoryGrowth
+- assetGrowth
+- bookValueperShareGrowth
+- debtGrowth
+- rdexpenseGrowth
+- sgaexpensesGrowth
+
+## owner_earnings
+
+- date
+- averagePPE
+- maintenanceCapex
+- ownersEarnings
+- growthCapex
+- ownersEarningsPerShare
+
+## enterprise_values
+
+- date
+- stockPrice
+- numberOfShares
+- marketCapitalization
+- minusCashAndCashEquivalents
+- addTotalDebt
+- enterpriseValue
+
+## dividends
+
+- label
+- adjDividend
+- dividend
+- paymentDate
+
+## scores
+
+- altmanZScore
+- piotroskiScore
+- workingCapital
+- totalAssets
+- retainedEarnings
+- ebit
+- marketCap
+- totalLiabilities
+- revenue

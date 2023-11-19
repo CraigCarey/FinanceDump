@@ -1,0 +1,11 @@
+beautifulsoup4
+fundamentalanalysis
+html5lib
+jupyter
+matplotlib
+openpyxl
+pandas
+requests
+requests_html
+yahoo_fin
+yfinance

@@ -1,0 +1,46 @@
+repos:
+  - repo: https://github.com/pycqa/isort
+    rev: 5.6.4
+    hooks:
+      - id: isort
+        args: ["--profile", "black", "--filter-files"]
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.2.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-toml
+      - id: requirements-txt-fixer
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.7.2
+    hooks:
+      - id: pyupgrade
+        args: [--py36-plus]
+  - repo: https://github.com/psf/black
+    rev: 22.10.0
+    hooks:
+      - id: black
+  - repo: https://github.com/prettier/pre-commit
+    rev: v2.1.2
+    hooks:
+      - id: prettier
+        exclude_types: [json]
+  - repo: local
+    hooks:
+      - id: clang-format
+        name: clang-format
+        description: Format files with clang-format.
+        entry: clang-format -i
+        language: system
+        files: \.(c|cc|cxx|cpp|h|hpp)$
+        args: ["-style=file", "-fallback-style=none"]
+
+      - id: cmake-format
+        name: cmake-format
+        description: Format files with cmake-format.
+        entry: cmake-format
+        language: python
+        files: (CMakeLists.*|.*\.cmake|.*\.cmake.in)$
+        args: ["-i"]

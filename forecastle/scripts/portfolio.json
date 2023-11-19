@@ -1,0 +1,92 @@
+{
+  "holdings": [
+    {
+      "ticker": "CPI.L",
+      "count": 367
+    },
+    {
+      "ticker": "EZJ.L",
+      "count": 308
+    },
+    {
+      "ticker": "FRAS.L",
+      "count": 58
+    },
+    {
+      "ticker": "LLOY.L",
+      "count": 1607
+    },
+    {
+      "ticker": "NWG.L",
+      "count": 424
+    },
+    {
+      "ticker": "RDSB.L",
+      "count": 74
+    },
+    {
+      "ticker": "RMG.L",
+      "count": 101
+    },
+    {
+      "ticker": "VAPX.L",
+      "count": 276
+    },
+    {
+      "ticker": "VERX.L",
+      "count": 124
+    },
+    {
+      "ticker": "VEUR.L",
+      "count": 72
+    },
+    {
+      "ticker": "VFEM.L",
+      "count": 60
+    },
+    {
+      "ticker": "VGER.L",
+      "count": 140
+    },
+    {
+      "ticker": "VGOV.L",
+      "count": 247
+    },
+    {
+      "ticker": "VHYL.L",
+      "count": 48
+    },
+    {
+      "ticker": "VJPN.L",
+      "count": 119
+    },
+    {
+      "ticker": "VMID.L",
+      "count": 97
+    },
+    {
+      "ticker": "VNRT.L",
+      "count": 126
+    },
+    {
+      "ticker": "VUAG.L",
+      "count": 130
+    },
+    {
+      "ticker": "VUKE.L",
+      "count": 102
+    },
+    {
+      "ticker": "VUSA.L",
+      "count": 139
+    },
+    {
+      "ticker": "VWRL.L",
+      "count": 32
+    },
+    {
+      "ticker": "VWRP.L",
+      "count": 48
+    }
+  ]
+}

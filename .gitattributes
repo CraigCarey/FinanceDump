@@ -1,0 +1,15 @@
+data/all_ftse_221210.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_ftse_221215.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_lse_stock_data_221219_failed.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_lse_stock_data_221219.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_lse_stock_names_221219.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_nyse_stock_data_221220_failed.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_nyse_stock_data_221220.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_symbols_221220.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_tradable_symbols_221220.pkl filter=lfs diff=lfs merge=lfs -text
+data/exchanges_221220.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_nasdaq_stock_data_221221.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_symbols_221221.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_tradable_symbols_221221.pkl filter=lfs diff=lfs merge=lfs -text
+data/exchanges_221221.pkl filter=lfs diff=lfs merge=lfs -text
+data/all_nasdaq_stock_data_221221_failed.pkl filter=lfs diff=lfs merge=lfs -text
