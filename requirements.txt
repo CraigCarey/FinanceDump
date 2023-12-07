@@ -18,3 +18,4 @@ xlrd
 yahoo_fin
 yfinance
 selenium
+pandas_datareader
