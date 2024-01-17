@@ -1,13 +1,19 @@
 #! /usr/bin/env python3
 
 from dataclasses import dataclass
-
 import pickle
+from datetime import datetime
 
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions
 
 from bs4 import BeautifulSoup
+
+
+def _get_datestamp():
+    now = datetime.now()
+    return now.strftime('%y%m%d')
+
 
 @dataclass
 class InvestmentTrust:
@@ -17,15 +23,17 @@ class InvestmentTrust:
     tradeable: bool
     premium: float
 
+
 def check_symbol_row(symbol_row):
     td_rows = symbol_row.findAll('td')
-    
+
     if len(td_rows) != 4:
         return False
-    
+
     td_row_1 = td_rows[0].findAll('td')
 
     return len(td_row_1) == 0
+
 
 def get_symbol_row_data(symbol_row):
     symbol_rows = symbol_row.findAll('td')
@@ -36,10 +44,12 @@ def get_symbol_row_data(symbol_row):
 
     return symbol, name, link, dealable
 
+
 def get_page_url(offset):
     url = f'https://www.hl.co.uk/shares/investment-trusts/search-for-investment-trusts?offset={offset}&it_search_input=a&companyid=&sectorid='
 
     return url
+
 
 def get_page_urls(soup):
     num_pages = 0
@@ -52,7 +62,7 @@ def get_page_urls(soup):
 
         if title.startswith('View page '):
             num_pages += 1
-        
+
     num_pages = num_pages // 2
     step_size = 50
     max_offset = num_pages * step_size
@@ -63,8 +73,9 @@ def get_page_urls(soup):
         url = get_page_url(offset)
         page_urls.append(url)
         offset += step_size
-    
+
     return page_urls
+
 
 def get_inv_trust_data(soup, investment_trusts):
     table = soup.find('table')
@@ -74,7 +85,9 @@ def get_inv_trust_data(soup, investment_trusts):
         if not check_symbol_row(symbol_row):
             continue
         symbol, name, link, dealable = get_symbol_row_data(symbol_row)
-        investment_trusts.append(InvestmentTrust(symbol, name, link, dealable, 0.0))
+        investment_trusts.append(InvestmentTrust(
+            symbol, name, link, dealable, 0.0))
+
 
 def main():
     options = ChromeOptions()
@@ -98,10 +111,10 @@ def main():
 
         get_inv_trust_data(page_soup, investment_trusts)
 
-    
-    inv_trusts_filename = 'investment_trusts_231002b.pkl'
+    inv_trusts_filename = f'investment_trusts_{_get_datestamp()}.pkl'
     with open(inv_trusts_filename, "wb") as handle:
-        pickle.dump(investment_trusts, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        pickle.dump(investment_trusts, handle,
+                    protocol=pickle.HIGHEST_PROTOCOL)
 
 
 if __name__ == "__main__":

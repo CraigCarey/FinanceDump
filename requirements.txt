@@ -19,3 +19,5 @@ yahoo_fin
 yfinance
 selenium
 pandas_datareader
+streamlit
+yahooquery
