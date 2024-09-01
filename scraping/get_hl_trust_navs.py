@@ -3,7 +3,7 @@
 from selenium import webdriver
 from investment_trust import InvestmentTrust
 from datetime import datetime
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium.webdriver import ChromeOptions
@@ -31,6 +31,7 @@ class TrustData:
     domicile: str
     isin: str
     objective: str
+    # TODO: nav date, frequency, 12m average
 
 
 def get_sec_detail(soup, idx):
@@ -107,13 +108,17 @@ def main():
                   'ongoing_charge', 'total_assets', 'gross_gearing', 'market_cap', 'structure', 'domicile', 'isin', 'objective', 'link']
     df = pd.DataFrame(columns=df_columns)
 
-    for trust in investment_trusts:
+    failures = []
 
-        if not trust.tradeable:
-            print(f"{trust.name} not tradeable")
-            continue
+    num_trusts = len(investment_trusts)
 
-        print(f"{trust.name}")
+    for index, trust in enumerate(investment_trusts):
+
+        # if not trust.tradeable:
+        #     print(f"[{index} / {num_trusts}] {trust.name} not tradeable")
+        #     continue
+
+        print(f"[{index} / {num_trusts}] {trust.name}")
 
         url = trust.link
 
@@ -123,6 +128,7 @@ def main():
 
             trust_data = get_symbol_data(soup)
 
+            # TODO: just use asdict(trust_data)
             trust_dict = {
                 'symbol': trust.symbol,
                 'name': trust.name,
@@ -146,18 +152,23 @@ def main():
             df2 = pd.DataFrame(trust_dict, index=[0])
             df = pd.concat([df2, df], ignore_index=True)
 
-            inv_trusts_nav_filename = f'investment_trusts_with_nav_{datestamp}_tmp.pkl'
-            with open(inv_trusts_nav_filename, "wb") as handle:
-                pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
+            # inv_trusts_nav_filename = f'investment_trusts_with_nav_{datestamp}_tmp.pkl'
+            # with open(inv_trusts_nav_filename, "wb") as handle:
+            #     pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
         except:
-            print(f"{trust.name} failed")
+            print(f"{trust.name} FAILED")
+            failures.append(trust.name)
 
-    inv_trusts_nav_filename = f'investment_trusts_with_nav_{datestamp}.pkl'
-    with open(inv_trusts_nav_filename, "wb") as handle:
+    inv_trusts_nav_filename = f'../data/investment_trusts_with_nav_{datestamp}'
+    with open(f'{inv_trusts_nav_filename}.pkl', "wb") as handle:
         pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-    df.to_csv(path_or_buf=f"trusts.csv")
+    df.to_csv(path_or_buf=f'{inv_trusts_nav_filename}.csv')
+
+    with open(f'{inv_trusts_nav_filename}_failed.txt', 'w') as file:
+        for failure in failures:
+            file.write(failure + '\n')
 
 
 if __name__ == "__main__":

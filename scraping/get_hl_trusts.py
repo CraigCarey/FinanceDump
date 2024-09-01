@@ -1,8 +1,17 @@
 #! /usr/bin/env python3
 
+'''
+Compiles a list of InvestmentTrust structs and pickles to file:
+    investment_trusts_240901.pkl
+
+and to csv: investment_trusts_240901.csv
+'''
+
 from dataclasses import dataclass
 import pickle
 from datetime import datetime
+
+import pandas as pd
 
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions
@@ -21,7 +30,6 @@ class InvestmentTrust:
     name: str
     link: str
     tradeable: bool
-    premium: float
 
 
 def check_symbol_row(symbol_row):
@@ -86,7 +94,7 @@ def get_inv_trust_data(soup, investment_trusts):
             continue
         symbol, name, link, dealable = get_symbol_row_data(symbol_row)
         investment_trusts.append(InvestmentTrust(
-            symbol, name, link, dealable, 0.0))
+            symbol, name, link, dealable))
 
 
 def main():
@@ -111,10 +119,16 @@ def main():
 
         get_inv_trust_data(page_soup, investment_trusts)
 
-    inv_trusts_filename = f'investment_trusts_{_get_datestamp()}.pkl'
+    datestamp = _get_datestamp()
+
+    inv_trusts_filename = f'../data/investment_trusts_{datestamp}.pkl'
     with open(inv_trusts_filename, "wb") as handle:
         pickle.dump(investment_trusts, handle,
                     protocol=pickle.HIGHEST_PROTOCOL)
+        
+    df = pd.DataFrame([trust.__dict__ for trust in investment_trusts])
+
+    df.to_csv(f'../data/investment_trusts_{datestamp}.csv')
 
 
 if __name__ == "__main__":
