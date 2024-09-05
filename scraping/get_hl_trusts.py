@@ -8,7 +8,6 @@ and to csv: investment_trusts_240901.csv
 """
 
 from dataclasses import dataclass
-import pickle
 from datetime import datetime
 
 import pandas as pd
@@ -137,9 +136,9 @@ def main():
 
     datestamp = _get_datestamp()
 
-    inv_trusts_filename = f"../data/investment_trusts_{datestamp}.pkl"
-    with open(inv_trusts_filename, "wb") as handle:
-        pickle.dump(investment_trusts, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    # inv_trusts_filename = f"../data/investment_trusts_{datestamp}.pkl"
+    # with open(inv_trusts_filename, "wb") as handle:
+    #     pickle.dump(investment_trusts, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
     df = pd.DataFrame([trust.__dict__ for trust in investment_trusts])
 
