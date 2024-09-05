@@ -53,13 +53,13 @@ def get_symbol_row_data(symbol_row):
     return symbol, name, link, dealable
 
 
-def get_page_url(offset):
-    url = f'https://www.hl.co.uk/shares/investment-trusts/search-for-investment-trusts?offset={offset}&it_search_input=a&companyid=&sectorid='
+def get_page_url(offset, search_input):
+    url = f'https://www.hl.co.uk/shares/investment-trusts/search-for-investment-trusts?offset={offset}&it_search_input={search_input}'
 
     return url
 
 
-def get_page_urls(soup):
+def get_page_urls(soup, search_input):
     num_pages = 0
 
     for link in soup.findAll('a', href=True):
@@ -78,7 +78,7 @@ def get_page_urls(soup):
     page_urls = []
     offset = step_size
     while offset <= max_offset:
-        url = get_page_url(offset)
+        url = get_page_url(offset, search_input)
         page_urls.append(url)
         offset += step_size
 
@@ -102,11 +102,13 @@ def main():
     options.add_argument("--headless=new")
     driver = webdriver.Chrome(options=options)
 
-    url = get_page_url(0)
-    driver.get(url)
-    soup = BeautifulSoup(driver.page_source, 'html')
+    search_input = "a"
 
-    page_urls = get_page_urls(soup)
+    url = get_page_url(0, search_input)
+    driver.get(url)
+    soup = BeautifulSoup(driver.page_source, 'lxml')
+
+    page_urls = [url] + get_page_urls(soup, search_input)
 
     investment_trusts = []
 
@@ -115,7 +117,7 @@ def main():
     for page_url in page_urls:
         print(page_url)
         driver.get(page_url)
-        page_soup = BeautifulSoup(driver.page_source, 'html')
+        page_soup = BeautifulSoup(driver.page_source, 'lxml')
 
         get_inv_trust_data(page_soup, investment_trusts)
 
