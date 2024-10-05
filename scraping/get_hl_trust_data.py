@@ -3,6 +3,7 @@
 from typing import List, Tuple
 from datetime import datetime
 from dataclasses import dataclass, field
+import re
 
 from bs4 import BeautifulSoup
 
@@ -26,21 +27,21 @@ driver = webdriver.Chrome(options=options)
 class TrustData:
     symbol: str = ""
     name: str = ""
-    estimate_nav: str = ""
-    latest_actual_nav: str = ""
+    estimate_nav: float = 0
+    latest_actual_nav: float = 0
     latest_actual_nav_date: str = ""
     nav_premium: str = ""
     average_12_month_nav_premium: str = ""
     nav_frequency: str = ""
-    volume: str = ""
+    volume: float = 0
     div_yld: str = ""
     currency: str = ""
     annual_mgmt_charge: str = ""
-    performance_fee: str = ""
+    performance_fee: bool = False
     ongoing_charge: str = ""
-    total_assets: str = ""
+    total_assets_mils: float = 0
     gross_gearing: str = ""
-    market_cap: str = ""
+    market_cap_mils: float = 0
     structure: str = ""
     domicile: str = ""
     isin: str = ""
@@ -50,6 +51,30 @@ class TrustData:
     top_ten_countries: List[Tuple[str, str]] = field(default_factory=list)
     tradeable: bool = False
     link: str = ""
+
+
+def convert_to_bool(value):
+    if value == "Yes":
+        return True
+    elif value == "No":
+        return False
+    else:
+        return None
+
+
+def convert_currency_to_float_mils(value):
+    # Remove currency symbols, leave decimal point and multiplier
+    numeric_value = re.sub(r"[^\d\.kmb]", "", value.lower())
+
+    # Check for 'k' (thousand), 'm' (millions) or 'b' (billions) and convert accordingly
+    if "k" in numeric_value:
+        return float(numeric_value.replace("k", "")) / 1_000
+    elif "m" in numeric_value:
+        return float(numeric_value.replace("m", ""))
+    elif "b" in numeric_value:
+        return float(numeric_value.replace("b", "")) * 1_000
+    else:
+        return float(numeric_value)
 
 
 def get_sec_detail(soup, idx):
@@ -131,19 +156,21 @@ def get_symbol_data(trust):
     div_yld = get_sec_detail(soup, idx_div_yld)
     currency = get_sec_detail(soup, idx_currency).strip()
 
-    estimate_nav = get_nav_data(soup, idx_estimate_nav)
-    latest_actual_nav = get_nav_data(soup, idx_actual_nav)
+    estimate_nav = re.sub(r"[^\d.]", "", get_nav_data(soup, idx_estimate_nav))
+    latest_actual_nav = re.sub(r"[^\d.]", "", get_nav_data(soup, idx_actual_nav))
     latest_actual_nav_date = get_nav_data(soup, idx_actual_nav_date)
     nav_premium = get_nav_data(soup, idx_nav_premium)
     average_12_month_nav_premium = get_nav_data(soup, idx_average_12_month_nav_premium)
     nav_frequency = get_nav_data(soup, idx_nav_frequency)
 
-    annual_mgmt_charge = get_trust_basics(soup, idx_annual_mgmt_charge).replace(" ", "")
-    performance_fee = get_trust_basics(soup, idx_performance_fee).replace(" ", "")
-    ongoing_charge = get_trust_basics(soup, idx_ongoing_charge).replace(" ", "")
-    total_assets = get_trust_basics(soup, idx_total_assets).replace(" ", "")
-    gross_gearing = get_trust_basics(soup, idx_gross_gearing).replace(" ", "")
-    market_cap = get_trust_basics(soup, idx_market_cap).replace(" ", "")
+    annual_mgmt_charge = get_trust_basics(soup, idx_annual_mgmt_charge).strip()
+    performance_fee = get_trust_basics(soup, idx_performance_fee).strip()
+    ongoing_charge = get_trust_basics(soup, idx_ongoing_charge).strip()
+    total_assets = get_trust_basics(soup, idx_total_assets).strip()
+    total_assets_mils = convert_currency_to_float_mils(total_assets)
+    gross_gearing = get_trust_basics(soup, idx_gross_gearing).strip()
+    market_cap = get_trust_basics(soup, idx_market_cap).strip()
+    market_cap_mils = convert_currency_to_float_mils(market_cap)
     structure = get_trust_basics(soup, idx_structure)
     domicile = get_trust_basics(soup, idx_domicile)
     isin = get_trust_basics(soup, idx_isin)
@@ -167,11 +194,11 @@ def get_symbol_data(trust):
         div_yld=div_yld,
         currency=currency,
         annual_mgmt_charge=annual_mgmt_charge,
-        performance_fee=performance_fee,
+        performance_fee=convert_to_bool(performance_fee),
         ongoing_charge=ongoing_charge,
-        total_assets=total_assets,
+        total_assets_mils=total_assets_mils,
         gross_gearing=gross_gearing,
-        market_cap=market_cap,
+        market_cap_mils=market_cap_mils,
         structure=structure,
         domicile=domicile,
         isin=isin,
@@ -215,6 +242,10 @@ def main():
             trusts.append(failed_trust)
 
     df = pd.DataFrame([trust.__dict__ for trust in trusts])
+    df["div_yld"] = df["div_yld"].replace("n/a", "0%")
+    df["volume"] = df["volume"].replace("n/a", "0")
+    df["latest_actual_nav"] = df["latest_actual_nav"].replace("n/a", "0")
+    df["annual_mgmt_charge"] = df["annual_mgmt_charge"].replace("n/a", "0%")
 
     inv_trusts_nav_filename = f"../data/investment_trust_data_{datestamp}.csv"
     # with open(f"{inv_trusts_nav_filename}.pkl", "wb") as handle:
