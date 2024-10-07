@@ -12,5 +12,5 @@ cd ../scraping/
 
 # Takes the list from above and obtains the nav etc for each entry
 # Writes to ../data/investment_trust_data_240905.csv
-../scraping/get_hl_trust_data.py
+./get_hl_trust_data.py
 ```

@@ -51,6 +51,10 @@ class TrustData:
     top_ten_countries: List[Tuple[str, str]] = field(default_factory=list)
     tradeable: bool = False
     link: str = ""
+    # winding_down: bool = False
+    # auditable: bool = False
+    # audit_link: str = ""
+
 
 
 def convert_to_bool(value):
@@ -120,12 +124,21 @@ def get_top_ten(soup, divID):
 
     return top_ten_data
 
+def get_dummy_symbol_data(trust: InvestmentTrust) -> TrustData:
+    trust_data = TrustData()
+    trust_data.symbol = trust.symbol
+    trust_data.name = trust.name
+    trust_data.link = trust.link
+    trust_data.tradeable = trust.tradeable
+
+    return trust_data
+
 
 @retry(
     stop=stop_after_attempt(max_retries),
     wait=wait_exponential(multiplier=1, min=2, max=10),
 )
-def get_symbol_data(trust):
+def get_symbol_data(trust) -> TrustData:
 
     url = trust.link
     driver.get(url)
