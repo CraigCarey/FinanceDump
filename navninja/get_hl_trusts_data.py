@@ -1,26 +1,36 @@
 #! /usr/bin/env python3
 
+from dataclasses import dataclass, field
 from typing import List, Tuple
 from datetime import datetime
-from dataclasses import dataclass, field
 import re
 
-from bs4 import BeautifulSoup
+import pandas as pd
 
 from selenium import webdriver
 from selenium.webdriver import ChromeOptions
 
-import pandas as pd
+from bs4 import BeautifulSoup
 
 from tenacity import retry, stop_after_attempt, wait_exponential
 
-from investment_trust import InvestmentTrust
+# pd.set_option("future.no_silent_downcasting", True)
 
+data_dir = "./data"
+datestamp = datetime.now().strftime("%y%m%d")
 max_retries = 5
 
 options = ChromeOptions()
 options.add_argument("--headless=new")
 driver = webdriver.Chrome(options=options)
+
+
+@dataclass
+class InvestmentTrust:
+    symbol: str
+    name: str
+    link: str
+    tradeable: bool
 
 
 @dataclass
@@ -54,6 +64,113 @@ class TrustData:
     # winding_down: bool = False
     # auditable: bool = False
     # audit_link: str = ""
+
+
+def check_symbol_row(symbol_row):
+    td_rows = symbol_row.findAll("td")
+
+    if len(td_rows) != 4:
+        return False
+
+    td_row_1 = td_rows[0].findAll("td")
+
+    return len(td_row_1) == 0
+
+
+def get_symbol_row_data(symbol_row):
+    symbol_rows = symbol_row.findAll("td")
+    symbol = symbol_rows[0].text
+    name = symbol_rows[1].text
+    link = symbol_rows[1].find("a", href=True)["href"]
+    dealable = symbol_rows[3].text.startswith("\nDeal")
+
+    return symbol, name, link, dealable
+
+
+def get_page_url(offset, search_input):
+    url = f"https://www.hl.co.uk/shares/investment-trusts/search-for-investment-trusts?offset={offset}&it_search_input={search_input}"
+
+    return url
+
+
+def get_page_urls(soup, search_input):
+    num_pages = 0
+
+    for link in soup.findAll("a", href=True):
+        title = link.get("title")
+
+        if not title:
+            continue
+
+        if title.startswith("View page "):
+            num_pages += 1
+
+    num_pages = num_pages // 2
+    step_size = 50
+    max_offset = num_pages * step_size
+
+    page_urls = []
+    offset = step_size
+    while offset <= max_offset:
+        url = get_page_url(offset, search_input)
+        page_urls.append(url)
+        offset += step_size
+
+    return page_urls
+
+
+def get_inv_trust_data(soup, investment_trusts):
+    table = soup.find("table")
+    rows = table.find_all("tr")
+
+    for symbol_row in rows:
+        if not check_symbol_row(symbol_row):
+            continue
+
+        symbol, name, link, dealable = get_symbol_row_data(symbol_row)
+
+        found_sym = next(
+            (trust for trust in investment_trusts if trust.symbol == symbol), None
+        )
+
+        if not found_sym:
+            investment_trusts.append(
+                InvestmentTrust(symbol, name, link, dealable))
+
+
+def get_trusts():
+    # most frequent letters, give us 351, 374 then 375 results
+    search_inputs = ["e", "a", "r"]
+    investment_trusts = []
+
+    for search_input in search_inputs:
+
+        # Get page 1, so we can determine how many other pages there are
+        url = get_page_url(0, search_input)
+        driver.get(url)
+        soup = BeautifulSoup(driver.page_source, "lxml")
+
+        # Scrape the first page
+        get_inv_trust_data(soup, investment_trusts)
+
+        # Generate URLs for the other pages
+        page_urls = get_page_urls(soup, search_input)
+
+        # Scrape the other pages
+        for page_url in page_urls:
+            print(page_url)
+            driver.get(page_url)
+            soup = BeautifulSoup(driver.page_source, "lxml")
+
+            get_inv_trust_data(soup, investment_trusts)
+
+        print(f"num trusts: {len(investment_trusts)}")
+
+    df = pd.DataFrame([trust.__dict__ for trust in investment_trusts])
+
+    df.to_csv(f"{data_dir}/investment_trusts_{datestamp}.csv")
+
+    return df
 
 
 def convert_to_bool(value):
@@ -229,15 +346,8 @@ def get_symbol_data(trust) -> TrustData:
     return trust_data
 
 
-def main():
-
-    datestamp = datetime.now().strftime("%y%m%d")
-    inv_trusts_filename = f"../data/investment_trusts_{datestamp}.csv"
-    investment_trusts = (
-        pd.read_csv(inv_trusts_filename)
-        .drop(["Unnamed: 0"], axis=1)
-        .reset_index(drop=True)
-    )
+def get_trust_data(investment_trusts):
+    # investment_trusts.drop(["Unnamed: 0"], axis=1).reset_index(drop=True)
 
     trusts = []
     num_trusts = len(investment_trusts)
@@ -263,19 +373,47 @@ def main():
     df["latest_actual_nav"] = df["latest_actual_nav"].replace("n/a", "0")
     df["annual_mgmt_charge"] = df["annual_mgmt_charge"].replace("n/a", "0%")
 
-    inv_trusts_nav_filename = f"../data/investment_trust_data_{datestamp}.csv"
-    # with open(f"{inv_trusts_nav_filename}.pkl", "wb") as handle:
-    #     pickle.dump(df, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    inv_trusts_nav_filename = f"{data_dir}/investment_trust_data_{datestamp}.csv"
 
     df.to_csv(path_or_buf=inv_trusts_nav_filename)
 
     print(f"Wrote trust data to {inv_trusts_nav_filename}")
 
-    # with open(f"{inv_trusts_nav_filename}_failed.txt", "w") as file:
-    #     for failure in failures:
-    #         file.write(failure + "\n")
 
-    # print(f"Wrote failed trusts to {inv_trusts_nav_filename}_failed.txt")
+def get_audit_df():
+    audit_data_filename = f"{data_dir}/investment_trust_data_audit.csv"
+
+    audit_df = pd.read_csv(audit_data_filename).drop(["isin"], axis=1)
+    audit_df["winding_down"] = audit_df["winding_down"].fillna(False)
+    # audit_df['auditable'] = audit_df['auditable'].fillna(False)
+    audit_df["audit_link"] = audit_df["audit_link"].fillna("")
+
+    return audit_df
+
+
+def augment_data(df):
+    audit_df = get_audit_df()
+    trusts_with_audit = pd.merge(df, audit_df, on="symbol", how="inner")
+    trusts_with_audit.to_csv(
+        f"{data_dir}/investment_trust_data_audit_{datestamp}.csv")
+
+
+def main():
+    df = get_trusts()
+
+    # inv_trusts_filename = f"{data_dir}/investment_trusts_{datestamp}.csv"
+    # df = (
+    #     pd.read_csv(inv_trusts_filename)
+    #     .drop(["Unnamed: 0"], axis=1)
+    #     .reset_index(drop=True)
+    # )
+
+    get_trust_data(df)
+
+    # inv_trusts_filename = f"{data_dir}/investment_trust_data_{datestamp}.csv"
+    # df = pd.read_csv(inv_trusts_filename)
+
+    augment_data(df)
 
 
 if __name__ == "__main__":
