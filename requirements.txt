@@ -21,3 +21,4 @@ selenium
 pandas_datareader
 streamlit
 yahooquery
+ipywidgets
