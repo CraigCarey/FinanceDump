@@ -1,5 +1,18 @@
 # NavNinja
 
+Gathers investment trust data such as:
+- NAV & discount
+- Divididend yield
+- Whether or not the holdings are unquoted
+
+For trusts with quoted holdings:
+- Get the live SP for each holding and calculate the true NAV
+- Highlight marked down / incorrectly valued (e.g. Russian) holdings
+- For each holding calculate and aggregate valuation metrics:
+    - Ratios
+    - Pietroski scores
+    - DCF
+
 ## Gathering basic NAV data from HL
 
 ```bash
