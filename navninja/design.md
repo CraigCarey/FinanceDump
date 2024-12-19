@@ -25,6 +25,11 @@ Fetching data should perhaps be a separate service
 
 ### Components
 - DB & ORM
+    - identifiers
+    - exchange codes
+    - trusts
+    - holdings
+    - securities
 - trust scraper
 - security scraper
 - metrics calculator
