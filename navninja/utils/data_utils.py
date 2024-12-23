@@ -55,10 +55,10 @@ def lines_to_df(lines):
         weight = float(weight.strip("%")) / 100
 
         value = sections[-2]
-        value = convert_parentheses_to_negative(value)
+        value = clean_float_str(value)
 
         holding = sections[-3]
-        holding = convert_parentheses_to_negative(holding)
+        holding = clean_float_str(holding)
 
         name = " ".join(sections[1:-3])
 
@@ -85,7 +85,7 @@ def check_df_types(df):
 
 
 # Function to clean and convert the values
-def convert_parentheses_to_negative(value):
+def clean_float_str(value):
     value = value.replace(",", "")  # Remove commas
     if re.match(r"^\(.*\)$", value):  # Check if the value is in parentheses
         value = "-" + value.strip("()")  # Remove parentheses and prepend '-'
