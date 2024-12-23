@@ -9,21 +9,16 @@ B4T3BW6 Glencore 21,852,325 98,575,838 8.2%
 6144690 BHP 3,211,088 72,405,556 6.0%
 9315284 BHP Brazil Royalty 12,000,000 19,935,132 1.7%
 0144403 BHP 58,636 1,326,932 0.1%
-93,667,620 7.8%
 0718875 Rio Tinto 1,442,689 75,019,828 6.2%
 0161M94V3 Rio Tinto Plc P/Opt 19/07/24 (300) (332,640) 0.0%
-74,687,188
 B1XZS82 Anglo American 2,707,836 67,750,057 5.6%
 01HM7D1S4 Anglo American Plc C/Opt 19/07/24 (600) (492,000) 0.0%
-67,258,057
 2352118 Freeport-McMoran 1,586,354 60,989,482 5.0%
 01LYCQ5C5 Freeport-McMoran IncP/Opt 19/07/24 (3,000) (407,009) 0.0%
-60,582,473
 2636607 Newmont 1,737,380 57,491,184 4.8%
 9346193 Vale 6,387,658 31,295,326 2.6%
 2857334 Vale 2,757,301 24,342,599 2.0%
 01NGZRYH1 Vale S.A. C/Opt 19/07/24 (13,000) (164,544) 0.0%
-55,473,381 4.6%
 2009823 Agnico Eagle Mines 1,001,112 51,567,613 4.3%
 2879327 Teck Resources 1,195,846 45,179,093 3.7%
 B11HK39 Norsk Hydro 8,882,699 43,887,016 3.6%
@@ -33,10 +28,8 @@ BD73C40 Ivanhoe Mines 2,885,809 29,362,762 2.4%
 2651086 Nucor 224,204 28,051,661 2.3%
 9360493 Jetti Resources 260,000 24,237,323 2.0%
 9363009 Jetti Resources Series D 10,400 969,493 0.1%
-25,206,816 2.1%
 BPF0KH6 Ivanhoe Electric 2,229,605 16,332,681 1.3%
 9384589 Ivanhoe Electric 1,107,920 8,115,924 0.7%
-24,448,605 2.0%
 2677929 Sociedad Minera Cerro Verde 691,083 21,321,285 1.8%
 2866857 Lundin Mining 2,323,081 20,440,695 1.7%
 10566M106 Bravo Mining 9,017,928 19,811,028 1.6%
@@ -44,11 +37,6 @@ BPF0KH6 Ivanhoe Electric 2,229,605 16,332,681 1.3%
 2158684 Cameco 500,334 19,465,569 1.6%
 B29NF31 Franco-Nevada 204,344 19,095,340 1.6%
 2849472 Steel Dynamics 132,462 13,571,042 1.1%
-NM0924U-3899164-1/3
-Security
-Market Value
-(bid) % of
-Number Security Holdings £ Portfolio
 BS2KWR4 Metals Acquisition Ltd 1,299,305 13,193,492 1.1%
 BYPBS67 ArcelorMittal 722,590 13,092,330 1.1%
 6717456 Northern Star Resources 1,887,957 12,966,738 1.1%
@@ -83,18 +71,12 @@ BJP5T05 Deterra Royalties 1,548,668 3,264,574 0.3%
 BMZ1NS0 Northam Platinum 434,065 2,391,993 0.2%
 B0ZGW28 Chalice Mining 2,531,820 1,899,400 0.2%
 B1FFT76 Impala Platinum 415,892 1,635,464 0.1%
-NM0924U-3899164-2/3
-Security
-Market Value
-(bid) % of
-Number Security Holdings £ Portfolio
 BYP71K0 Titan Mining 7,005,979 911,314 0.1%
 6259914 Equatorial Resources 3,000,000 213,969 0.0%
 9363507 Bindura Nickel 3,142,789 31,077 0.0%
 7947221 Australian Carbon 10,700,000 57 0.0%
 9360225 Victorian Hydrogen & Ammonia Industry 7,490,000 40 0.0%
 7936955 Latrobe Fertilisers 10,700,000 0 0.0%
-40 0.0%
 B57R0L9 Polyus 111,912 10 0.0%
 7949606 Gippsland Energy 10,700,000 0 0.0%
 TOTAL INVESTMENTS 1,207,836,409 100.0%

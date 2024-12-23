@@ -1,5 +1,6 @@
 import requests
 import hashlib
+import re
 
 import pandas as pd
 
@@ -52,12 +53,13 @@ def lines_to_df(lines):
         sedol = sections[0]
         weight = sections[-1]
         weight = float(weight.strip("%")) / 100
+
         value = sections[-2]
-        value = value.replace("–", "0")
-        value = value.replace("-", "0")
-        value = float(value.replace(",", ""))
+        value = convert_parentheses_to_negative(value)
+
         holding = sections[-3]
-        holding = float(holding.replace(",", ""))
+        holding = convert_parentheses_to_negative(holding)
+
         name = " ".join(sections[1:-3])
 
         entry = {
@@ -80,3 +82,12 @@ def check_df_types(df):
     assert is_numeric_dtype(df[cols[2]]), f"{cols[2]} is not numeric"
     assert is_numeric_dtype(df[cols[3]]), f"{cols[3]} is not numeric"
     assert is_numeric_dtype(df[cols[4]]), f"{cols[4]} is not numeric"
+
+
+# Function to clean and convert the values
+def convert_parentheses_to_negative(value):
+    value = value.replace(",", "")  # Remove commas
+    if re.match(r"^\(.*\)$", value):  # Check if the value is in parentheses
+        value = "-" + value.strip("()")  # Remove parentheses and prepend '-'
+    value = value.replace("–", "0")
+    return float(value)
