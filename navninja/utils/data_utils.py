@@ -27,7 +27,7 @@ def calculate_md5(file_path):
         return f"An error occurred: {e}"
 
 
-def download_pdf(url, save_path):
+def download_file(url, save_path):
     try:
         # Send a GET request to the URL
         response = requests.get(url)
@@ -36,9 +36,9 @@ def download_pdf(url, save_path):
             # Write the content to a file
             with open(save_path, "wb") as file:
                 file.write(response.content)
-            print(f"PDF downloaded successfully and saved to {save_path}")
+            print(f"File downloaded successfully and saved to {save_path}")
         else:
-            print(f"Failed to download PDF. Status code: {response.status_code}")
+            print(f"Failed to download file. Status code: {response.status_code}")
     except Exception as e:
         print(f"An error occurred: {e}")
 
