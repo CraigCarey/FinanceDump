@@ -1,6 +1,13 @@
 import requests
 import hashlib
 
+import pandas as pd
+
+from pandas.api.types import is_string_dtype, is_numeric_dtype
+
+
+cols = ["SEDOL", "Name", "Holding", "Value", "Weight"]
+
 
 def calculate_md5(file_path):
     try:
@@ -33,3 +40,43 @@ def download_pdf(url, save_path):
             print(f"Failed to download PDF. Status code: {response.status_code}")
     except Exception as e:
         print(f"An error occurred: {e}")
+
+
+def lines_to_df(lines):
+
+    df = pd.DataFrame(columns=cols)
+
+    for line in lines:
+        sections = line.split(" ")
+
+        sedol = sections[0]
+        weight = sections[-1]
+        weight = float(weight.strip("%")) / 100
+        value = sections[-2]
+        value = value.replace("–", "0")
+        value = value.replace("-", "0")
+        value = float(value.replace(",", ""))
+        holding = sections[-3]
+        holding = float(holding.replace(",", ""))
+        name = " ".join(sections[1:-3])
+
+        entry = {
+            cols[0]: sedol,
+            cols[1]: name,
+            cols[2]: holding,
+            cols[3]: value,
+            cols[4]: weight,
+        }
+
+        entry_df = pd.DataFrame([entry])
+        df = pd.concat([df, entry_df], ignore_index=True)
+
+    return df
+
+
+def check_df_types(df):
+    assert is_string_dtype(df[cols[0]]), f"{cols[0]} is not of type string"
+    assert is_string_dtype(df[cols[1]]), f"{cols[1]} is not of type string"
+    assert is_numeric_dtype(df[cols[2]]), f"{cols[2]} is not numeric"
+    assert is_numeric_dtype(df[cols[3]]), f"{cols[3]} is not numeric"
+    assert is_numeric_dtype(df[cols[4]]), f"{cols[4]} is not numeric"
