@@ -23,10 +23,13 @@ percent_col = "% of Fund"
 exchange_col = "Exchange"
 currency_col = "Currency"
 conversion_col = "Conv Rate"
-today_sp_lc_col = "SP Today lc"
-today_sp_gbp_col = "SP Today GBP"
-fx_gbp_today_col = "fx gbp today"
-nav_gbp_today_col = "nav gbp today"
+exchange_col = "Exchange"
+currency_col = "Currency"
+conversion_col = "Conv Rate"
+sp_lc_col = "SP LC"
+sp_gbp_col = "SP GBP"
+holding_gbp_col = "Holding GBP"
+nav_gbp_col = "NAV GBP"
 
 tv = TvDatafeed()
 
@@ -134,9 +137,16 @@ def append_symbols_and_exchanges(latest_holdings):
 
 def get_local_prices(latest_holdings_with_symbols):
     failures = []
+    if sp_lc_col not in latest_holdings_with_symbols.columns:
+        latest_holdings_with_symbols[sp_lc_col] = None
+
     for index, row in latest_holdings_with_symbols.iterrows():
         symbol = row.Symbol
         exchange = row.Exchange
+        sp_lc = row[sp_lc_col]
+
+        if sp_lc is not None:
+            continue
 
         if exchange == "PRIVATE":
             continue
@@ -149,7 +159,7 @@ def get_local_prices(latest_holdings_with_symbols):
             )
 
             sp_now = hist.iloc[-1].close.item()
-            latest_holdings_with_symbols.loc[index, today_sp_lc_col] = sp_now
+            latest_holdings_with_symbols.loc[index, sp_lc_col] = sp_now
         except:
             print(f"Failed: {symbol} - {exchange}")
             failures.append((symbol, exchange))
@@ -195,6 +205,22 @@ def get_fx_rates(latest_holdings_with_symbols):
             print(f"Failed: {currency}GBP")
 
     return fx_rates
+
+
+def apply_rates(latest_holdings_with_symbols, fx_rates):
+    for index, row in latest_holdings_with_symbols.iterrows():
+
+        if row[exchange_col] == "PRIVATE":
+            continue
+
+        currency = row[currency_col]
+        fx_rate = fx_rates[currency]
+        sp_lc = row[sp_lc_col]
+        sp_gbp = sp_lc * fx_rate
+        latest_holdings_with_symbols.loc[index, sp_gbp_col] = sp_gbp
+        holding = row[holding_col]
+
+        latest_holdings_with_symbols.loc[index, holding_gbp_col] = holding * sp_gbp
 
 
 if __name__ == "__main__":
