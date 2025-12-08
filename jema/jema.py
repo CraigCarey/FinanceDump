@@ -1,6 +1,7 @@
 #! /usr/bin/env python3
 
 import requests
+import json
 from datetime import datetime, timedelta
 
 from tvdatafeed import TvDatafeed, Interval
@@ -13,7 +14,12 @@ pd.set_option("display.max_columns", None)
 pd.set_option("display.max_rows", None)
 pd.set_option("future.no_silent_downcasting", True)
 
+shares_in_issue = 40.44e6
+declared_nav = 64.93
+s_account_divs_feb_rub = 53e6 * 107.9
+
 xlsx_filename = "jpm-emerging-europe-middle-east-afria-disclosure.xlsx"
+json_filename = "jema_data.json"
 description_col = "Security Description"
 security_col = "Security No."
 symbol_col = "Symbol"
@@ -221,6 +227,70 @@ def apply_rates(latest_holdings_with_symbols, fx_rates):
         holding = row[holding_col]
 
         latest_holdings_with_symbols.loc[index, holding_gbp_col] = holding * sp_gbp
+
+
+def get_price(symbol, exchange):
+    sp = 0
+    try:
+        hist = tv.get_hist(
+            symbol=symbol, exchange=exchange, interval=Interval.in_daily, n_bars=1
+        )
+
+        sp = hist.iloc[-1].close.item()
+    except:
+        print(f"Failed: {symbol} - {exchange}")
+    return sp
+
+
+def create_jema_json(latest_holdings_with_symbols, fx_rates):
+    s_account_divs_now_gbp = int(s_account_divs_feb_rub * fx_rates["RUB"])
+    s_account_divs_per_share = s_account_divs_now_gbp / shares_in_issue
+
+    total_holding_gbp = int(latest_holdings_with_symbols[holding_gbp_col].sum())
+    total_holding_rus = int(
+        latest_holdings_with_symbols[latest_holdings_with_symbols["Currency"] == "RUB"][
+            holding_gbp_col
+        ].sum()
+    )
+    total_holding_non = total_holding_gbp - total_holding_rus
+
+    equity_nav_gbp = total_holding_gbp / shares_in_issue
+    total_nav_gbp = equity_nav_gbp + s_account_divs_per_share
+
+    # jema_price = get_price("JEMA", "LSE")
+    jema_price = 2.43
+
+    print(f"{int(total_holding_gbp):,}")
+    print(f"{equity_nav_gbp:.2f} GBP per share")
+    print(f"JEMA price: {jema_price:.2f} GBP")
+    print(f"S Account Divs: {s_account_divs_now_gbp:,}")
+    print(f"S account divs per share: {s_account_divs_per_share:.2f}")
+    print(f"Total NAV: {total_nav_gbp:.2f}")
+
+    print(f"Total Russian Holding: {total_holding_rus:,}")
+    print(f"Total Non-Russian Holding: {total_holding_non:,}")
+    print(f"Total holdings: {total_holding_gbp:,}")
+
+    data_to_write = {
+        "total_holding_gbp": total_holding_gbp,
+        "equity_nav_gbp": equity_nav_gbp,
+        "jema_price": jema_price,
+        "s_account_divs_now_gbp": s_account_divs_now_gbp,
+        "s_account_divs_per_share": s_account_divs_per_share,
+        "total_nav_gbp": total_nav_gbp,
+        "total_holding_rus": total_holding_rus,
+        "total_holding_non": total_holding_non,
+        "data_timestamp": datetime.now().isoformat(),
+    }
+
+    with open(json_filename, "w") as json_file:
+        json.dump(data_to_write, json_file, indent=4)
+
+
+def read_jema_json():
+    with open(json_filename, "r") as json_file:
+        data = json.load(json_file)
+    return data
 
 
 if __name__ == "__main__":
