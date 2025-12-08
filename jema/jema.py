@@ -23,6 +23,12 @@ percent_col = "% of Fund"
 exchange_col = "Exchange"
 currency_col = "Currency"
 conversion_col = "Conv Rate"
+today_sp_lc_col = "SP Today lc"
+today_sp_gbp_col = "SP Today GBP"
+fx_gbp_today_col = "fx gbp today"
+nav_gbp_today_col = "nav gbp today"
+
+tv = TvDatafeed()
 
 
 def latest_holdings_sheet0_name():
@@ -124,6 +130,71 @@ def append_symbols_and_exchanges(latest_holdings):
     jema_data.to_csv(f"jema_holdings_{month_sheet.replace(' ', '_').lower()}.csv")
 
     return jema_data
+
+
+def get_local_prices(latest_holdings_with_symbols):
+    failures = []
+    for index, row in latest_holdings_with_symbols.iterrows():
+        symbol = row.Symbol
+        exchange = row.Exchange
+
+        if exchange == "PRIVATE":
+            continue
+
+        print(f"Processing: {exchange}:{symbol}")
+
+        try:
+            hist = tv.get_hist(
+                symbol=symbol, exchange=exchange, interval=Interval.in_daily, n_bars=1
+            )
+
+            sp_now = hist.iloc[-1].close.item()
+            latest_holdings_with_symbols.loc[index, today_sp_lc_col] = sp_now
+        except:
+            print(f"Failed: {symbol} - {exchange}")
+            failures.append((symbol, exchange))
+
+    return failures
+
+
+def get_fx_rates(latest_holdings_with_symbols):
+    currencies = list(latest_holdings_with_symbols[currency_col].unique())
+
+    fx_rates = {}
+    for currency in currencies:
+        currency = currency.strip()
+        currency = currency.upper()
+        if currency == "ZAC":
+            currency = "ZAR"
+
+        if currency == "KWF":
+            currency = "KWD"
+
+        if currency in fx_rates:
+            continue
+        try:
+            data = tv.get_hist(
+                symbol=f"{currency}GBP",
+                exchange="FX_IDC",
+                interval=Interval.in_daily,
+                n_bars=100,
+            )
+
+            rate = data.iloc[-1].close.item()
+
+            if currency == "ZAR":
+                currency = "ZAC"
+                rate = rate / 100
+
+            if currency == "KWD":
+                currency = "KWF"
+                rate = rate / 1000
+
+            fx_rates[currency] = rate
+        except:
+            print(f"Failed: {currency}GBP")
+
+    return fx_rates
 
 
 if __name__ == "__main__":
