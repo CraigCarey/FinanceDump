@@ -257,8 +257,8 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
     equity_nav_gbp = total_holding_gbp / shares_in_issue
     total_nav_gbp = equity_nav_gbp + s_account_divs_per_share
 
-    # jema_price = get_price("JEMA", "LSE")
-    jema_price = 2.43
+    jema_price = get_price("JEMA", "LSE") / 100
+    # jema_price = 2.43
 
     print(f"{int(total_holding_gbp):,}")
     print(f"{equity_nav_gbp:.2f} GBP per share")
