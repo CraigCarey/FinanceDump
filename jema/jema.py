@@ -15,7 +15,7 @@ pd.set_option("display.max_rows", None)
 pd.set_option("future.no_silent_downcasting", True)
 
 shares_in_issue = 40.44e6
-declared_nav = 64.93
+declared_nav = 64.99
 s_account_divs_feb_rub = 53e6 * 107.9
 
 xlsx_filename = "jpm-emerging-europe-middle-east-afria-disclosure.xlsx"
@@ -258,18 +258,20 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
     total_nav_gbp = equity_nav_gbp + s_account_divs_per_share
 
     jema_price = get_price("JEMA", "LSE") / 100
-    # jema_price = 2.43
+    official_pd = -(1 - (jema_price / (declared_nav / 100)))
+    equity_pd_total = -(1 - (jema_price / equity_nav_gbp))
+    actual_pd_total = -(1 - (jema_price / total_nav_gbp))
 
-    print(f"{int(total_holding_gbp):,}")
-    print(f"{equity_nav_gbp:.2f} GBP per share")
-    print(f"JEMA price: {jema_price:.2f} GBP")
-    print(f"S Account Divs: {s_account_divs_now_gbp:,}")
-    print(f"S account divs per share: {s_account_divs_per_share:.2f}")
-    print(f"Total NAV: {total_nav_gbp:.2f}")
+    # print(f"{int(total_holding_gbp):,}")
+    # print(f"{equity_nav_gbp:.2f} GBP per share")
+    # print(f"JEMA price: {jema_price:.2f} GBP")
+    # print(f"S Account Divs: {s_account_divs_now_gbp:,}")
+    # print(f"S account divs per share: {s_account_divs_per_share:.2f}")
+    # print(f"Total NAV: {total_nav_gbp:.2f}")
 
-    print(f"Total Russian Holding: {total_holding_rus:,}")
-    print(f"Total Non-Russian Holding: {total_holding_non:,}")
-    print(f"Total holdings: {total_holding_gbp:,}")
+    # print(f"Total Russian Holding: {total_holding_rus:,}")
+    # print(f"Total Non-Russian Holding: {total_holding_non:,}")
+    # print(f"Total holdings: {total_holding_gbp:,}")
 
     data_to_write = {
         "total_holding_gbp": total_holding_gbp,
@@ -281,6 +283,10 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
         "total_holding_rus": total_holding_rus,
         "total_holding_non": total_holding_non,
         "data_timestamp": datetime.now().isoformat(),
+        "declared_nav": declared_nav,
+        "official_pd": official_pd,
+        "equity_pd_total": equity_pd_total,
+        "actual_pd_total": actual_pd_total,
     }
 
     with open(json_filename, "w") as json_file:
