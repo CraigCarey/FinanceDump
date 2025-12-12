@@ -16,7 +16,31 @@ Calculates the following (both monthly and yearly):
 - Net income
 - Effective tax rate
 
+## Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
+
+### Streamlit Web App (Recommended)
+
+Run the interactive Streamlit web application:
+
+```bash
+streamlit run app.py
+```
+
+The app features:
+- 📊 **Interactive Breakdown**: Visual comparison of annual vs monthly salary components
+- 💧 **Waterfall Chart**: See how your gross income transforms into net income
+- 📈 **Scenario Analysis**: Compare different salary sacrifice percentages side-by-side
+- 📋 **Tax Details**: Reference information about UK tax rates and thresholds
+
+### Command Line Interface
 
 Run the calculator:
 
@@ -26,7 +50,7 @@ python salary_calculator.py
 
 The calculator has two modes:
 
-### Mode 1: Single Calculation (Interactive)
+#### Mode 1: Single Calculation (Interactive)
 Calculates and displays results for a single salary sacrifice percentage.
 
 You'll be prompted to enter:
@@ -34,7 +58,7 @@ You'll be prompted to enter:
 2. Employee salary sacrifice percentage for pension (%)
 3. Employer pension contribution percentage (%)
 
-### Mode 2: Range Calculation (CSV Export)
+#### Mode 2: Range Calculation (CSV Export)
 Generates a CSV file with calculations for a range of salary sacrifice percentages.
 
 You'll be prompted to enter:

@@ -1,0 +1,7 @@
+# Core dependencies
+streamlit>=1.30.0
+pandas>=2.0.0
+plotly>=5.18.0
+
+# Original calculator has no external dependencies
+# This salary calculator core uses only Python standard library
