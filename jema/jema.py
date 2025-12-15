@@ -15,7 +15,7 @@ pd.set_option("display.max_rows", None)
 pd.set_option("future.no_silent_downcasting", True)
 
 shares_in_issue = 40.44e6
-declared_nav = 64.99
+declared_nav = 65.9
 s_account_divs_feb_rub = 53e6 * 107.9
 
 xlsx_filename = "jpm-emerging-europe-middle-east-afria-disclosure.xlsx"
