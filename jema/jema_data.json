@@ -1,15 +1,15 @@
 {
-    "total_holding_gbp": 220067804,
-    "equity_nav_gbp": 5.441834915924827,
-    "jema_price": 2.4975,
-    "s_account_divs_now_gbp": 53235378,
-    "s_account_divs_per_share": 1.3164040059347182,
-    "total_nav_gbp": 6.758238921859545,
-    "total_holding_rus": 194262350,
-    "total_holding_non": 25805454,
-    "data_timestamp": "2025-12-17T11:07:38.992916",
+    "total_holding_gbp": 225897626,
+    "equity_nav_gbp": 5.585994708209693,
+    "jema_price": 2.36775,
+    "s_account_divs_now_gbp": 54996737,
+    "s_account_divs_per_share": 1.3599588773491593,
+    "total_nav_gbp": 6.945953585558852,
+    "total_holding_rus": 199616262,
+    "total_holding_non": 26281364,
+    "data_timestamp": "2026-01-21T13:38:04.476161",
     "declared_nav": 65.9,
-    "official_pd": 2.789833080424886,
-    "equity_pd_total": -0.5410555375924049,
-    "actual_pd_total": -0.6304510644153423
+    "official_pd": 2.5929438543247345,
+    "equity_pd_total": -0.5761274180012852,
+    "actual_pd_total": -0.6591180792047435
 }
