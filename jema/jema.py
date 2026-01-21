@@ -77,6 +77,7 @@ def get_jema_holdings_xlsx(outputFile=xlsx_filename):
 
 def fix_jema_holdings(local_filename=xlsx_filename):
     ss = openpyxl.load_workbook(local_filename)
+    ss["Nov 2025"].title = "November 2025"
     ss["Oct 2025"].title = "October 2025"
     ss["Sep 2025"].title = "September 2025"
     ss["Aug 2025"].title = "August 2025"
@@ -142,7 +143,10 @@ def append_symbols_and_exchanges(latest_holdings):
 
 
 def get_local_prices(latest_holdings_with_symbols):
+    global tv
     failures = []
+    consecutive_failures = 0
+
     if sp_lc_col not in latest_holdings_with_symbols.columns:
         latest_holdings_with_symbols[sp_lc_col] = None
 
@@ -166,9 +170,16 @@ def get_local_prices(latest_holdings_with_symbols):
 
             sp_now = hist.iloc[-1].close.item()
             latest_holdings_with_symbols.loc[index, sp_lc_col] = sp_now
-        except:
+            consecutive_failures = 0
+        except Exception as e:
             print(f"Failed: {symbol} - {exchange}")
             failures.append((symbol, exchange))
+            consecutive_failures += 1
+
+            if consecutive_failures >= 3:
+                print("Resetting connection after 3 consecutive failures...")
+                tv = TvDatafeed()
+                consecutive_failures = 0
 
     return failures
 
