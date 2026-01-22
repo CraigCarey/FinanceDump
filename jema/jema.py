@@ -268,6 +268,10 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
     equity_nav_gbp = total_holding_gbp / shares_in_issue
     total_nav_gbp = equity_nav_gbp + s_account_divs_per_share
 
+    adjusted_nav = (
+        100 * (total_holding_non + (total_holding_rus * 0.01)) / shares_in_issue
+    )
+
     jema_price = get_price("JEMA", "LSE") / 100
     official_pd = -(1 - (jema_price / (declared_nav / 100)))
     equity_pd_total = -(1 - (jema_price / equity_nav_gbp))
@@ -295,6 +299,7 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
         "total_holding_non": total_holding_non,
         "data_timestamp": datetime.now().isoformat(),
         "declared_nav": declared_nav,
+        "adjusted_nav": adjusted_nav,
         "official_pd": official_pd,
         "equity_pd_total": equity_pd_total,
         "actual_pd_total": actual_pd_total,
