@@ -15,7 +15,6 @@ pd.set_option("display.max_rows", None)
 pd.set_option("future.no_silent_downcasting", True)
 
 shares_in_issue = 40.44e6
-declared_nav = 69.0
 s_account_divs_feb_rub = 53e6 * 107.9
 
 xlsx_filename = "jpm-emerging-europe-middle-east-afria-disclosure.xlsx"
@@ -253,7 +252,7 @@ def get_price(symbol, exchange):
     return sp
 
 
-def create_jema_json(latest_holdings_with_symbols, fx_rates):
+def create_jema_json(latest_holdings_with_symbols, fx_rates, official_nav):
     s_account_divs_now_gbp = int(s_account_divs_feb_rub * fx_rates["RUB"])
     s_account_divs_per_share = s_account_divs_now_gbp / shares_in_issue
 
@@ -273,7 +272,7 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
     )
 
     jema_price = get_price("JEMA", "LSE") / 100
-    official_pd = -(1 - (jema_price / (declared_nav / 100)))
+    official_pd = -(1 - (jema_price / (official_nav / 100)))
     equity_pd_total = -(1 - (jema_price / equity_nav_gbp))
     actual_pd_total = -(1 - (jema_price / total_nav_gbp))
 
@@ -298,7 +297,7 @@ def create_jema_json(latest_holdings_with_symbols, fx_rates):
         "total_holding_rus": total_holding_rus,
         "total_holding_non": total_holding_non,
         "data_timestamp": datetime.now().isoformat(),
-        "declared_nav": declared_nav,
+        "official_nav": official_nav,
         "adjusted_nav": adjusted_nav,
         "official_pd": official_pd,
         "equity_pd_total": equity_pd_total,
