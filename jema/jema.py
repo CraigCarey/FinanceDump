@@ -15,7 +15,8 @@ pd.set_option("display.max_rows", None)
 pd.set_option("future.no_silent_downcasting", True)
 
 shares_in_issue = 40.44e6
-s_account_divs_feb_rub = 53e6 * 107.9
+s_account_divs_jan25_rub = 57.5e6 * 103
+
 
 xlsx_filename = "jpm-emerging-europe-middle-east-afria-disclosure.xlsx"
 json_filename = "jema_data.json"
@@ -253,7 +254,7 @@ def get_price(symbol, exchange):
 
 
 def create_jema_json(latest_holdings_with_symbols, fx_rates, official_nav):
-    s_account_divs_now_gbp = int(s_account_divs_feb_rub * fx_rates["RUB"])
+    s_account_divs_now_gbp = int(s_account_divs_jan25_rub * fx_rates["RUB"])
     s_account_divs_per_share = s_account_divs_now_gbp / shares_in_issue
 
     total_holding_gbp = int(latest_holdings_with_symbols[holding_gbp_col].sum())
