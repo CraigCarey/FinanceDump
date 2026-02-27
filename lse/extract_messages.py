@@ -9,7 +9,7 @@ OUTPUT_FILE = "messages.json"
 
 items = []
 
-for page_num in range(1, 18):
+for page_num in range(1, 30):
     html_path = Path(f"{page_num}.html")
     if not html_path.exists():
         print(f"Skipping missing file: {html_path}")
