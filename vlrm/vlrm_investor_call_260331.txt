@@ -1,0 +1,756 @@
+[00:00.000 --> 00:03.720]  Firstly all, I think there is a disclaimer slide,
+[00:03.720 --> 00:06.240]  but DC, you're probably gonna have to send it to me
+[00:06.240 --> 00:07.820]  and I will screen share it.
+[00:08.760 --> 00:12.120]  Basically that we're not giving an investment advice.
+[00:12.120 --> 00:13.940]  I'm certainly not telling you whether you should buy
+[00:13.940 --> 00:15.000]  or sell Valereum shares,
+[00:15.000 --> 00:17.400]  given what's happened the last couple of weeks,
+[00:17.400 --> 00:19.720]  which I'm surprised to say the least,
+[00:19.720 --> 00:21.920]  but maybe not given all the rhetoric.
+[00:23.180 --> 00:27.120]  But there is a very big healthy disclaimer on,
+[00:27.120 --> 00:30.040]  please do not take this as investment advice.
+[00:30.040 --> 00:32.080]  This isn't a forward-looking statement either.
+[00:32.080 --> 00:34.640]  This was specifically designed this session
+[00:34.640 --> 00:37.720]  because a lot of the investors wanted the opportunity
+[00:37.720 --> 00:40.200]  to ask some questions.
+[00:40.200 --> 00:42.720]  I'm the most appropriate to do that.
+[00:42.720 --> 00:47.020]  Please also be conscious on any comments
+[00:47.020 --> 00:49.720]  that you might make that you've got most of the directors
+[00:50.680 --> 00:52.980]  you've got most of the directors on this call.
+[00:53.980 --> 00:56.980]  And you've also got some of the QGP people.
+[00:58.740 --> 01:01.620]  So please show some respect,
+[01:01.620 --> 01:05.420]  whatever you think of us, them, me, any of the above.
+[01:06.300 --> 01:08.580]  So my personal observation is
+[01:10.020 --> 01:12.300]  the further we advance the business,
+[01:12.300 --> 01:13.540]  which I believe we have,
+[01:14.820 --> 01:16.900]  the worse it seems to get for the share price.
+[01:16.900 --> 01:19.260]  So it's becoming quite confusing
+[01:20.260 --> 01:22.540]  that however much we've made progress
+[01:22.540 --> 01:24.620]  on tokenization in general.
+[01:24.620 --> 01:26.460]  And it's critically important
+[01:26.460 --> 01:30.500]  that people acknowledge that we're a tokenization company
+[01:30.500 --> 01:31.740]  first and foremost.
+[01:31.740 --> 01:34.220]  So I don't know that I have reconciles
+[01:34.220 --> 01:36.900]  of whether you're a long-term investor or a day trader,
+[01:36.900 --> 01:39.500]  but we're not gonna keep giving you a running commentary
+[01:39.500 --> 01:41.020]  during the day for all those people
+[01:41.020 --> 01:43.400]  that go on whatever social media channels.
+[01:45.180 --> 01:48.540]  We're focused on, we reformed this business
+[01:48.580 --> 01:50.580]  when Jamie put an awful lot of money in it.
+[01:51.620 --> 01:54.860]  I got brought in as I was an advisor to the board
+[01:54.860 --> 01:56.940]  to change the shape of the business.
+[01:56.940 --> 01:59.180]  We have very much kept to our knitting.
+[02:00.440 --> 02:02.680]  I think it's important that people know
+[02:02.680 --> 02:06.020]  whether you like QGP or know QGP
+[02:06.020 --> 02:09.860]  or have a thing that almost every single tokenization
+[02:09.860 --> 02:11.660]  company of the big ones that are out there
+[02:11.660 --> 02:13.820]  or which we would be considered one of those at the moment
+[02:13.820 --> 02:15.140]  of the emerging ones,
+[02:15.140 --> 02:17.980]  they all have an investor like QGP.
+[02:17.980 --> 02:19.420]  So if you look at Chinti,
+[02:19.420 --> 02:21.880]  who I think are probably the closest to us,
+[02:21.880 --> 02:24.980]  they have a billionaire called Bruno Wu
+[02:24.980 --> 02:26.740]  who owns Sun Seven Stars.
+[02:26.740 --> 02:30.420]  And all those people in the same way that when we started,
+[02:30.420 --> 02:34.780]  based upon the premise that they invest in those companies
+[02:34.780 --> 02:36.220]  because they really want to be able
+[02:36.220 --> 02:38.980]  to tokenize their portfolios.
+[02:40.140 --> 02:42.620]  So common feature, I don't know,
+[02:42.620 --> 02:44.780]  it can be back to my notes.
+[02:44.780 --> 02:47.340]  A lot of the tokenization companies
+[02:47.340 --> 02:49.860]  have been cornerstone investors.
+[02:49.860 --> 02:52.660]  We started off on the road with QGP
+[02:54.180 --> 02:56.620]  around the fact that they're prominent
+[02:56.620 --> 02:58.180]  in that royalty and streaming space
+[02:58.180 --> 03:00.460]  in the precious metals like gold
+[03:00.460 --> 03:02.500]  and they've got some other stuff as well.
+[03:02.500 --> 03:06.180]  Day by day, that there are a handful of people
+[03:06.180 --> 03:10.220]  who either have some kind of bias.
+[03:10.220 --> 03:13.340]  I don't know why, I stopped even looking
+[03:13.340 --> 03:15.780]  at the nonsense now that people put up.
+[03:15.780 --> 03:17.940]  But there's an awful lot of conspiracy theories.
+[03:17.940 --> 03:19.780]  So I'm gonna try and basically explain
+[03:19.780 --> 03:21.180]  what we're doing in the business
+[03:21.180 --> 03:23.900]  and dispel some of that conspiracy theory.
+[03:23.900 --> 03:25.940]  So I'm gonna try and explain what we're doing in the business
+[03:25.940 --> 03:28.340]  and dispel some of that conspiracy theory.
+[03:28.340 --> 03:31.580]  So I'm gonna try and explain what we're doing in the business
+[03:31.780 --> 03:34.860]  and dispel some of the absolute nonsense that's out there.
+[03:36.220 --> 03:37.700]  In fact, I think one of them's just joined, right?
+[03:37.700 --> 03:39.740]  So he could maybe unveil himself in the future
+[03:39.740 --> 03:43.340]  and explain whether he's paid for all the stuff he posts,
+[03:44.300 --> 03:48.900]  whether he just has a very big grudge against Valereum.
+[03:48.900 --> 03:52.340]  So hold on there, just add people.
+[03:53.340 --> 03:54.860]  I think it's gonna be tough.
+[03:54.860 --> 03:56.700]  So just starting at the top,
+[03:57.540 --> 04:02.540]  it's important to recognize that for those people
+[04:03.540 --> 04:06.860]  that have queried QGP and their legitimacy,
+[04:07.980 --> 04:12.980]  we didn't magically decide they were great people,
+[04:13.900 --> 04:16.300]  that we were introduced to them.
+[04:16.300 --> 04:20.980]  They are a Cayman registered segregated portfolio company.
+[04:20.980 --> 04:23.820]  We hired leading Cayman lawyers
+[04:23.820 --> 04:25.780]  to do all the checks and balances.
+[04:25.780 --> 04:29.580]  They were verified by three different FCA firms.
+[04:29.580 --> 04:31.380]  So as much as, and again,
+[04:31.380 --> 04:33.260]  I've seen hundreds of different texts,
+[04:33.260 --> 04:35.420]  emails on nonsense out there.
+[04:35.420 --> 04:38.420]  We basically spent tens of thousands of pounds.
+[04:38.420 --> 04:40.420]  We relied on the enhanced DD.
+[04:40.420 --> 04:43.900]  We spoke to the Monetary Authority and the Caymans.
+[04:43.900 --> 04:45.940]  We spoke to several other companies in the Caymans
+[04:45.940 --> 04:50.500]  to confirm the legitimacy of QGP.
+[04:50.500 --> 04:54.340]  They have acted with the utmost professionalism.
+[04:54.620 --> 04:56.780]  And I think that body of evidence,
+[04:56.780 --> 04:58.780]  so people can continue to speculate
+[04:58.780 --> 05:00.820]  as long as much as they want.
+[05:00.820 --> 05:02.780]  We're not gonna provide them with a huge body,
+[05:02.780 --> 05:04.940]  but we have as to guilt, right?
+[05:04.940 --> 05:07.740]  We have a letter of good standing from a leading lawyer,
+[05:07.740 --> 05:10.260]  and they have passed every single check
+[05:10.260 --> 05:12.100]  that one could possibly imagine.
+[05:12.100 --> 05:14.380]  I used to have a very senior FCA regulated job,
+[05:14.380 --> 05:17.020]  so I pretty much know what goes on with this.
+[05:17.020 --> 05:20.460]  Not a single red flag was raised
+[05:20.460 --> 05:21.980]  in any of the process,
+[05:24.020 --> 05:26.860]  in going through that process with QGP.
+[05:26.860 --> 05:29.580]  So you may have your conspiracy theories about them,
+[05:29.580 --> 05:34.580]  but I would also add that again,
+[05:36.060 --> 05:38.300]  I think it's somewhat embarrassing
+[05:38.300 --> 05:41.180]  that the people have proposed that they're fraudsters,
+[05:41.180 --> 05:43.660]  that this is a fraud, that we're fraudsters.
+[05:45.020 --> 05:50.020]  It doesn't kind of stack up with the facts, right?
+[05:50.100 --> 05:53.340]  That they have not only passed
+[05:53.340 --> 05:55.020]  every single check and balance,
+[05:56.180 --> 05:59.340]  but if it were a fraud, it would be an interesting fraud,
+[05:59.340 --> 06:02.260]  that they've not only spent hundreds of thousands of dollars,
+[06:02.260 --> 06:04.620]  they spent tens of thousands of hours with us
+[06:04.620 --> 06:06.900]  to get to basically launch VGOLD,
+[06:06.900 --> 06:09.340]  and they passed every single check and balance.
+[06:09.340 --> 06:11.700]  So the usual MO of a fraudster is,
+[06:11.700 --> 06:13.300]  they try and perpetuate a fraud,
+[06:13.300 --> 06:15.300]  and then they vanish when you catch them.
+[06:16.220 --> 06:17.820]  And if we end up with,
+[06:17.820 --> 06:20.900]  they're paying us in the hundreds of thousands,
+[06:20.900 --> 06:21.740]  and they probably have,
+[06:21.740 --> 06:24.220]  if you rack up all their costs is probably in the millions,
+[06:24.220 --> 06:25.900]  it would be quite an interesting fraud
+[06:25.900 --> 06:26.820]  to be the other way around.
+[06:26.820 --> 06:31.180]  So I think we judge them on their actions.
+[06:31.180 --> 06:34.540]  They've been incredibly good to work with.
+[06:34.540 --> 06:37.820]  And again, we're not gonna keep pandering to people
+[06:37.820 --> 06:40.980]  who have got these ridiculous conspiracy theories,
+[06:42.100 --> 06:43.340]  of which one of them is that
+[06:43.340 --> 06:45.580]  they've been selling shares in the market.
+[06:45.620 --> 06:48.300]  And that's also nonsense, just to be absolutely clear.
+[06:50.660 --> 06:53.140]  We would see whenever they sell a single share.
+[06:53.140 --> 06:56.020]  So I think just to kind of dispel
+[06:56.020 --> 06:58.940]  some of the absolute rubbish that's out there.
+[06:58.940 --> 07:00.780]  And very, very lastly,
+[07:00.780 --> 07:02.500]  I think probably just for my,
+[07:02.500 --> 07:04.980]  and I will say I have a vested interest.
+[07:04.980 --> 07:08.420]  We've had a lot of questions asking about illiquid asset solutions,
+[07:09.540 --> 07:11.740]  and I'll just be really clear what that was.
+[07:11.740 --> 07:14.140]  So that was the advisory firm
+[07:14.140 --> 07:16.460]  that was actually set up by Grant Gischen,
+[07:16.460 --> 07:19.300]  who's one of the directors, now one of the directors.
+[07:20.940 --> 07:24.180]  Hold on now, just had somebody else join.
+[07:25.380 --> 07:29.060]  So he came up, I used to be a consultant
+[07:29.060 --> 07:30.220]  many, many years ago.
+[07:30.220 --> 07:32.380]  He used to be a private equity consultant.
+[07:33.460 --> 07:37.460]  Before we were both really involved in Valereum,
+[07:39.860 --> 07:42.660]  we were doing consultancy around some crypto stuff.
+[07:42.660 --> 07:45.500]  It's actually now the single largest
+[07:45.500 --> 07:47.700]  deal introducer for the company.
+[07:47.700 --> 07:50.100]  So the small group of people,
+[07:50.100 --> 07:52.300]  of which for good or bad, my son is one of them.
+[07:52.300 --> 07:54.500]  He used to do M&A for a big US firm.
+[07:54.500 --> 07:58.780]  While we were doing basically illiquid asset solution deals
+[07:58.780 --> 08:00.620]  outside of Valereum,
+[08:00.620 --> 08:04.260]  it's now the engine for most of the deals for Valereum.
+[08:04.260 --> 08:06.380]  So that's why it's involved, right?
+[08:06.380 --> 08:09.260]  It is now a related party for anything.
+[08:10.260 --> 08:12.460]  But we're not gonna keep running around apologizing.
+[08:12.460 --> 08:15.340]  The fact it's the deal engine for Valereum, right?
+[08:15.340 --> 08:17.940]  Valereum is now a relatively small entity
+[08:17.940 --> 08:21.980]  with a handful of people, mostly around origination.
+[08:21.980 --> 08:23.580]  Our biggest source of origination,
+[08:23.580 --> 08:26.380]  so although QGP have,
+[08:26.380 --> 08:27.780]  we're in the process of looking at
+[08:27.780 --> 08:31.140]  tens of billions of dollars of assets with them,
+[08:31.140 --> 08:34.340]  we also are now speaking to probably six other similar
+[08:34.340 --> 08:37.900]  types of people like QGP to tokenize there,
+[08:38.220 --> 08:41.020]  whether it's titanium, which is a huge deal,
+[08:41.020 --> 08:43.340]  but it's a deal that's up to nearly a quarter of a trillion
+[08:43.340 --> 08:45.980]  dollars, so 232 billion dollars.
+[08:45.980 --> 08:48.220]  It's the largest titanium mine in Brazil,
+[08:48.220 --> 08:50.220]  which we're working with the owners of that.
+[08:50.220 --> 08:52.700]  We are looking at three gold mines,
+[08:52.700 --> 08:56.060]  all of the 30 to 40 billion dollars.
+[08:56.060 --> 08:57.980]  So they are in the millions of ounces
+[08:57.980 --> 09:00.060]  of production ready gold,
+[09:00.060 --> 09:02.980]  in the same way that the cornerstone asset of Ego Corp,
+[09:02.980 --> 09:04.100]  which we'll get to,
+[09:04.100 --> 09:07.660]  happens to be an asset owned by QGP.
+[09:08.620 --> 09:11.300]  So we're gonna, the corner,
+[09:11.300 --> 09:14.340]  I guess the focus of our business now,
+[09:14.340 --> 09:16.660]  we've spent an awful lot of time with QGP
+[09:16.660 --> 09:19.140]  to develop Vgold and Vgold Corp,
+[09:19.140 --> 09:20.900]  and I'll talk about them in a bit while,
+[09:20.900 --> 09:22.700]  but this is what we are, right?
+[09:22.700 --> 09:24.020]  We're a tokenization company,
+[09:24.020 --> 09:26.540]  so I know everybody's been running around saying,
+[09:26.540 --> 09:28.700]  well, let's take some cash, let's take some cash,
+[09:28.700 --> 09:33.060]  but we have a huge vested interest in the tokenization space.
+[09:33.940 --> 09:36.100]  So I'm gonna stop, I'm gonna talk about lots of questions
+[09:36.100 --> 09:38.700]  around coupon payment and structure,
+[09:38.700 --> 09:41.500]  around the bonds that we originally did the deal on
+[09:41.500 --> 09:43.620]  to sell half the company and the coupon,
+[09:43.620 --> 09:46.180]  how we've morphed that to a different bond,
+[09:47.300 --> 09:50.980]  and I will take some personal responsibility here, right?
+[09:50.980 --> 09:53.220]  When we got Vgold to a point
+[09:53.220 --> 09:56.660]  that it was pretty much ready to launch, which is now,
+[09:56.660 --> 10:01.460]  and the proposition that was on the table
+[10:01.460 --> 10:03.700]  to not only have a profit share,
+[10:03.700 --> 10:04.820]  which we didn't have originally,
+[10:04.820 --> 10:07.780]  so in tokens, you typically get a one or 2%
+[10:07.780 --> 10:09.020]  if you're a token issuer.
+[10:10.100 --> 10:12.620]  The conversations with the QGP guys,
+[10:12.620 --> 10:15.460]  which now we're talking about merging technologies,
+[10:15.460 --> 10:18.140]  they really own Vgold Corp, which is unregulated,
+[10:18.140 --> 10:20.980]  we own Vgold, which is regulated,
+[10:20.980 --> 10:22.980]  to merge those technologies
+[10:22.980 --> 10:25.340]  and to merge how we work together
+[10:25.340 --> 10:28.860]  with the CTO for the technologies,
+[10:28.860 --> 10:30.820]  and also to leverage their assets
+[10:30.820 --> 10:32.860]  where we get a profit share
+[10:32.860 --> 10:36.260]  and switch from a relatively illiquid bond
+[10:36.260 --> 10:37.500]  that paid a decent coupon,
+[10:37.500 --> 10:39.700]  so the original bond we did with the MTN,
+[10:39.700 --> 10:44.060]  to something that's a liquid bond backed by gold tokens,
+[10:44.060 --> 10:45.420]  complete no-brainer for us.
+[10:45.420 --> 10:47.900]  I'd make that decision every day of the week.
+[10:49.180 --> 10:53.300]  Now, obviously, we need to verify it,
+[10:53.300 --> 10:56.220]  which we will do in the next few weeks,
+[10:56.220 --> 10:58.500]  but that was a very, very easy decision,
+[10:59.460 --> 11:01.580]  which I led.
+[11:01.580 --> 11:04.020]  I had all the conversations with the QGP people,
+[11:05.020 --> 11:08.060]  and if the verification turns out to be correct,
+[11:08.060 --> 11:11.340]  so if it doesn't, we effectively go back to cash coupon.
+[11:11.340 --> 11:13.500]  If it turns out that they're three million ounce
+[11:13.500 --> 11:16.540]  of gold mine, which we've had the paperwork for weeks,
+[11:16.540 --> 11:17.980]  we've done an awful lot of checks,
+[11:17.980 --> 11:20.180]  and we're very confident it's real,
+[11:20.180 --> 11:22.580]  that gets verified by a top four firm,
+[11:22.580 --> 11:25.260]  so a PwC or Deloitte,
+[11:25.260 --> 11:27.620]  then to own liquid tokens,
+[11:27.620 --> 11:31.700]  and effectively what is a gold product,
+[11:31.700 --> 11:33.460]  as opposed to an illiquid bond,
+[11:33.460 --> 11:36.620]  where that's a complete no-brainer decision for us.
+[11:36.620 --> 11:39.380]  So people have asked, how much cash are we getting?
+[11:39.380 --> 11:40.460]  We're not gonna tell you, right?
+[11:40.460 --> 11:41.420]  I can tell you it's somewhere
+[11:41.420 --> 11:44.340]  between half a million dollars and four million dollars,
+[11:44.340 --> 11:46.980]  but it's only the verification process
+[11:47.940 --> 11:49.820]  that will get us to that answer.
+[11:49.820 --> 11:53.340]  So we made a commercial decision, I will stand by that.
+[11:53.380 --> 11:55.700]  I drove that commercial decision,
+[11:55.700 --> 11:57.380]  and very worst case,
+[11:57.380 --> 11:59.740]  which goes back to the conspiracy theorists,
+[11:59.740 --> 12:01.980]  if it turns out that they don't own the mines,
+[12:01.980 --> 12:05.780]  and they're not real, of all those incredibly unlikely,
+[12:05.780 --> 12:08.620]  then it's still a great position for shareholders,
+[12:08.620 --> 12:12.020]  because we effectively get to unwind the original deal,
+[12:12.020 --> 12:13.940]  and we're still in a really good position
+[12:13.940 --> 12:17.340]  with VGOLD for other investors and other issuers.
+[12:17.340 --> 12:19.860]  So the answer to that question is,
+[12:19.860 --> 12:22.820]  it's aligned with everything we're doing.
+[12:22.820 --> 12:24.940]  It's at the heart of what we want to do
+[12:24.940 --> 12:26.620]  for the next two or three years,
+[12:26.620 --> 12:29.140]  which is effectively tokenized gold mines
+[12:29.140 --> 12:30.660]  and other precious metal.
+[12:30.660 --> 12:35.020]  These are all assets that can't access funding.
+[12:35.020 --> 12:37.900]  So there are allegedly 800 gold mines out there
+[12:37.900 --> 12:39.180]  that can't get funding.
+[12:39.180 --> 12:42.300]  The ecosystem that we developed with the QGP guys,
+[12:42.300 --> 12:44.380]  and I'll give the CEO, Peter Schultz,
+[12:44.380 --> 12:46.580]  who probably is on this call, full credit.
+[12:47.620 --> 12:48.820]  Nobody else is offering it.
+[12:48.820 --> 12:51.860]  It's a stroke of genius to go to market,
+[12:51.860 --> 12:55.260]  and everyone we take it to says it's a great product.
+[12:55.260 --> 12:57.420]  So if we will get this up off the ground,
+[12:58.300 --> 13:01.500]  and very worst case that the QGP don't turn out to be real,
+[13:01.500 --> 13:03.140]  we'll still get it up off the ground,
+[13:03.140 --> 13:04.420]  but we all think they're real.
+[13:04.420 --> 13:07.700]  So that's just where we are
+[13:07.700 --> 13:09.340]  on coupon payment and structure.
+[13:10.980 --> 13:14.220]  Due diligence and asset verification, lots of questions.
+[13:16.300 --> 13:19.580]  Now, the question is, what did we do?
+[13:19.580 --> 13:21.460]  What did we have done externally?
+[13:22.460 --> 13:25.900]  Very, very simply, we appointed an awful lot
+[13:25.900 --> 13:30.620]  of external people, and it didn't include the QGP guys
+[13:30.620 --> 13:34.820]  to make this assessment, because obviously it's their assets.
+[13:34.820 --> 13:36.420]  We've been working with them for VGOLD Core,
+[13:36.420 --> 13:38.780]  so it's purely the Valereum team,
+[13:38.780 --> 13:41.220]  and we have checked every single document.
+[13:41.220 --> 13:43.500]  There are dozens of documents.
+[13:43.500 --> 13:45.620]  We have provided them to third parties,
+[13:46.700 --> 13:49.620]  and we have not found a single thing
+[13:49.700 --> 13:51.420]  that we should be concerned about.
+[13:52.340 --> 13:55.020]  So we will continue to do that.
+[13:55.020 --> 13:57.500]  The next part of that process is we will hand that over
+[13:57.500 --> 14:02.180]  to a big four firm to do the final piece of verification.
+[14:02.180 --> 14:05.140]  If you look on the VGOLD website, you will also see
+[14:05.140 --> 14:08.820]  that when they VGOLD Core QGP market this
+[14:08.820 --> 14:10.620]  to investors themselves,
+[14:10.620 --> 14:14.220]  it comes with a blockchain verification.
+[14:14.220 --> 14:16.660]  So it's called Chainmark and Oracle,
+[14:16.660 --> 14:19.100]  and basically independent verification.
+[14:19.100 --> 14:21.300]  So people can have all their little conspiracy theories
+[14:21.300 --> 14:23.620]  as much as they want, but they don't stand up
+[14:23.620 --> 14:27.460]  to when a Deloitte or an EY or a PWC check the dots.
+[14:28.580 --> 14:30.460]  It would suggest for those people
+[14:30.460 --> 14:33.660]  that their initial asset they're going to use as liquidity
+[14:33.660 --> 14:36.860]  is a gold mine which has got verified.
+[14:36.860 --> 14:39.620]  So it's called measured and inspected,
+[14:39.620 --> 14:40.820]  or measured and indicated,
+[14:40.820 --> 14:43.140]  more than three million ounces of gold,
+[14:43.140 --> 14:44.900]  and then it's production ready.
+[14:45.900 --> 14:49.380]  So again, we think we've done our homework
+[14:49.380 --> 14:51.180]  and we'll continue to do that.
+[14:53.060 --> 14:56.020]  Next stage, gold backing and token value.
+[14:57.020 --> 15:01.260]  So just to be clear that we will issue VGOLD tokens
+[15:01.260 --> 15:02.980]  and there'll be regulated tokens,
+[15:02.980 --> 15:04.780]  and that process will probably,
+[15:04.780 --> 15:06.380]  we didn't particularly want to announce it
+[15:06.380 --> 15:08.260]  as we did this morning or yesterday,
+[15:09.260 --> 15:11.180]  but we will start that regulatory process.
+[15:11.180 --> 15:12.500]  We're ready to do that.
+[15:12.860 --> 15:15.900]  Our good friends at QGP, when we align technologies,
+[15:15.900 --> 15:17.660]  they really own VGOLD Core,
+[15:17.660 --> 15:20.020]  and they have these multi-billion dollar assets
+[15:20.020 --> 15:23.100]  that sit behind VGOLD Core now.
+[15:23.100 --> 15:27.500]  So what that really is, they have about four of these,
+[15:27.500 --> 15:30.780]  so they'll either use one, two, up to four of those,
+[15:30.780 --> 15:33.060]  and effectively it's a liquidity backbone
+[15:33.060 --> 15:34.380]  for tokenized gold.
+[15:36.180 --> 15:40.420]  So it allows them to, and this goes back to,
+[15:40.460 --> 15:42.540]  if people remember the billion dollars
+[15:42.540 --> 15:45.380]  when we first announced this deal,
+[15:47.900 --> 15:51.380]  this goes back to saying that you needed
+[15:51.380 --> 15:53.780]  to be able to access liquidity to do these deals.
+[15:55.580 --> 15:58.060]  So no more than it's a liquidity instrument
+[15:58.060 --> 16:01.340]  backed by a couple of billion dollars of gold mines,
+[16:01.340 --> 16:02.620]  or gold mine assets.
+[16:03.620 --> 16:06.700]  So why VGOLD, hopefully I've mentioned,
+[16:06.700 --> 16:09.060]  we want to build an infrastructure with QGP
+[16:09.060 --> 16:11.460]  to tokenize real world assets.
+[16:11.460 --> 16:13.260]  We're focused on gold.
+[16:13.260 --> 16:15.900]  If we tap in the VGOLD Core liquidity,
+[16:15.900 --> 16:18.420]  we feel we can go after an awful lot of these deals
+[16:18.420 --> 16:20.580]  over the next two or three years.
+[16:20.580 --> 16:24.180]  None of these gold mines can get bank funding anymore,
+[16:24.180 --> 16:25.980]  so they all access private capital.
+[16:25.980 --> 16:28.700]  So again, credit to the QGP guys
+[16:28.700 --> 16:33.220]  for the stroke of genius on the ecosystem.
+[16:33.220 --> 16:35.980]  TetherGold don't offer this, neither does Paxos,
+[16:35.980 --> 16:38.900]  so all of this will be different from other gold tokens.
+[16:41.060 --> 16:42.420]  And then once we've done gold,
+[16:42.420 --> 16:44.260]  like we're already talking about titanium,
+[16:44.260 --> 16:47.140]  we're talking about magnesium, we're talking about copper,
+[16:47.140 --> 16:50.180]  so we've got a dozen different conversations going on
+[16:50.180 --> 16:52.660]  with different people who've got the assets,
+[16:52.660 --> 16:55.060]  and our job is to try and tokenize them.
+[16:55.060 --> 16:58.900]  And if we can access this liquidity pool with QGP,
+[16:58.900 --> 17:00.620]  then we will have something in the market
+[17:00.620 --> 17:01.820]  that nobody else does.
+[17:01.820 --> 17:03.620]  It's very, very early days though,
+[17:03.620 --> 17:06.260]  so these take a couple of months to get up,
+[17:06.260 --> 17:08.180]  it takes a couple of months to list a token,
+[17:08.180 --> 17:10.940]  so any investor looking to think we're going to
+[17:12.740 --> 17:14.220]  make some inordinate amount of money
+[17:14.220 --> 17:15.420]  in the next couple of weeks,
+[17:15.420 --> 17:17.100]  we're not the investment for you.
+[17:18.860 --> 17:22.220]  So moving on, revenue potential and pipeline.
+[17:23.100 --> 17:24.580]  How do we make our money?
+[17:24.580 --> 17:26.340]  Like all tokenization companies,
+[17:27.700 --> 17:30.180]  there's a fee pool between one and 2%,
+[17:30.180 --> 17:31.820]  so if we do deals,
+[17:31.820 --> 17:34.140]  like you will have all seen the CoinGT deal,
+[17:34.140 --> 17:37.980]  you will have seen the Clinics AI deal, the Wageen deal,
+[17:37.980 --> 17:41.060]  they've all got fee pools between one and 2%,
+[17:41.060 --> 17:43.300]  we can't tell you what the likelihood of those is,
+[17:43.300 --> 17:44.540]  and I'm certainly not going to give you
+[17:44.540 --> 17:46.940]  any forward guidance on this goal,
+[17:46.940 --> 17:50.220]  but the fee pool, now obviously it's different for VGold
+[17:50.220 --> 17:52.660]  and VGold Corp because we've agreed
+[17:52.660 --> 17:56.140]  a revenue share principle with QGP,
+[17:56.140 --> 17:59.140]  and if you imagine that you dig gold out of the ground
+[17:59.180 --> 18:02.060]  for $1,500 to $2,000 an ounce,
+[18:02.060 --> 18:05.380]  and you sell it at the moment for $5,000 an ounce,
+[18:05.380 --> 18:09.020]  they and other mine owners are making an awful lot of money
+[18:09.020 --> 18:10.500]  if you can finance that,
+[18:10.500 --> 18:13.340]  and that's why we think that typically tokenization
+[18:13.340 --> 18:15.540]  gives you a fee pool somewhere around 1%,
+[18:15.540 --> 18:18.260]  we think profit sharing is a much better outcome for us
+[18:18.260 --> 18:20.460]  and for them, and to be aligned
+[18:20.460 --> 18:22.260]  and integrated and in partnership.
+[18:24.820 --> 18:26.780]  So we talk about some of the downsides.
+[18:27.780 --> 18:29.980]  What's the downside, which again,
+[18:29.980 --> 18:31.900]  we actually think we've done a decent job here
+[18:31.900 --> 18:33.900]  for shareholders in terms of protecting them,
+[18:33.900 --> 18:36.100]  so it doesn't deliver the coupon
+[18:36.100 --> 18:39.860]  or we don't get to signing the definitive agreement
+[18:39.860 --> 18:42.180]  that sits behind that announcement today.
+[18:42.180 --> 18:44.300]  Number one, they offered to pledge
+[18:44.300 --> 18:48.540]  all their shares and warrants as collateral,
+[18:48.540 --> 18:51.540]  so they offered that, we didn't even need to ask them.
+[18:51.540 --> 18:53.860]  If we don't like the mine verification,
+[18:53.860 --> 18:56.180]  we can revert back to the bond as was
+[18:56.220 --> 19:00.260]  and take the coupon, and if the coupon fails
+[19:00.260 --> 19:02.500]  or they decide they don't wanna do that,
+[19:02.500 --> 19:06.100]  or our option, then effectively the trade
+[19:06.100 --> 19:08.540]  get all the shares and the warrants they've got,
+[19:08.540 --> 19:10.620]  they get assigned to us, and then,
+[19:10.620 --> 19:13.180]  so the shareholders are in a much, much better position
+[19:13.180 --> 19:18.180]  than in extremists, because we've effectively
+[19:20.140 --> 19:23.340]  repossessed 250 million shares or whatever it is,
+[19:23.340 --> 19:25.700]  and we've still got VGOLD.
+[19:25.700 --> 19:29.780]  So we've still got an ecosystem to tokenize gold
+[19:29.780 --> 19:32.100]  and other precious metals and real-world assets
+[19:32.100 --> 19:33.740]  using that approach.
+[19:33.740 --> 19:35.940]  Now, we don't want that to happen.
+[19:35.940 --> 19:38.460]  We certainly don't, we've done all the work
+[19:38.460 --> 19:39.980]  with our good friends at QGP,
+[19:39.980 --> 19:41.540]  and we don't think it's gonna happen,
+[19:41.540 --> 19:43.500]  but that's the downside protection
+[19:43.500 --> 19:46.620]  that's a good thing for shareholders.
+[19:49.500 --> 19:53.060]  Related party governance, I think I mentioned on it before,
+[19:53.060 --> 19:54.380]  there's a whole bunch of conflicts.
+[19:54.420 --> 19:56.580]  There's a conflict with ISL people,
+[19:56.580 --> 19:59.940]  so whenever there's a decision around ISL,
+[19:59.940 --> 20:02.580]  which Grant and I own the vast majority of ISL,
+[20:02.580 --> 20:04.420]  we will accuse ourself.
+[20:04.420 --> 20:08.060]  Whenever it's between QGP, there's a separate body
+[20:08.060 --> 20:10.860]  that doesn't involve the QGP people being involved,
+[20:10.860 --> 20:12.900]  so we have our good friends at Guild
+[20:12.900 --> 20:14.460]  to help us navigate those.
+[20:15.900 --> 20:17.940]  Every single time you've got those directors
+[20:17.940 --> 20:20.980]  are excluded from the fairness decision.
+[20:20.980 --> 20:23.740]  We have a much, much better board now.
+[20:23.740 --> 20:26.100]  We've got proper non-execs,
+[20:26.100 --> 20:28.220]  even though Simon Brickels has managed
+[20:28.220 --> 20:30.860]  to stay the test of time and stay with us, which is great.
+[20:30.860 --> 20:32.900]  So we have ex-KCs,
+[20:32.900 --> 20:35.020]  we've got people who've done structured finance
+[20:35.020 --> 20:36.900]  and commodity link finance.
+[20:36.900 --> 20:39.420]  We've got one guy who worked for two US presidents.
+[20:39.420 --> 20:42.460]  We've got a couple of other US non-execs lined up
+[20:42.460 --> 20:45.740]  for if and when we get to NASDAQ.
+[20:45.740 --> 20:49.340]  So the company has a much better governance framework,
+[20:49.340 --> 20:50.740]  and that was one of the things
+[20:50.740 --> 20:53.700]  why Jamie wanted me to get involved than it had before,
+[20:54.660 --> 20:55.980]  and it does really, really annoy me,
+[20:55.980 --> 20:59.140]  people drawing analogies with the DMC deal,
+[20:59.140 --> 21:01.820]  which was a complete shambles from start to finish
+[21:01.820 --> 21:06.500]  with one person making 99.9% of the decisions in isolation.
+[21:06.500 --> 21:07.660]  There's no governance.
+[21:09.020 --> 21:11.060]  So we think we're quite good, right?
+[21:11.060 --> 21:13.780]  We're obviously always happy to take advice,
+[21:13.780 --> 21:15.100]  but it's really tricky to navigate
+[21:15.100 --> 21:17.820]  between the nonsense from all the conspiracy theories
+[21:17.820 --> 21:20.620]  and all the chat rooms of any decent advice.
+[21:21.620 --> 21:23.980]  I'm moving on, US listing and timeline.
+[21:25.060 --> 21:30.060]  We are pretty much ready to advance our US listing.
+[21:31.740 --> 21:33.900]  We need, the company needs revenues.
+[21:33.900 --> 21:37.660]  That was made very clear from both NASDAQ and NYSE.
+[21:37.660 --> 21:40.180]  We believed getting VGOLD up
+[21:40.180 --> 21:42.220]  and VGOLD for QGP to get VGOLD coin
+[21:42.220 --> 21:43.620]  during a couple of deals.
+[21:43.620 --> 21:46.660]  That gives us the platform, the revenue platform
+[21:46.660 --> 21:48.020]  to list in the US.
+[21:48.100 --> 21:51.900]  They do not list companies on commissary stories.
+[21:51.900 --> 21:54.860]  And hopefully in all the interviews I've said,
+[21:54.860 --> 21:57.180]  I've been incredibly consistent, right?
+[21:57.180 --> 22:01.420]  We want to build a decent company and build some revenues.
+[22:01.420 --> 22:03.900]  And I fully appreciate that it might not suit
+[22:03.900 --> 22:05.260]  what's happened to people
+[22:05.260 --> 22:08.340]  because everybody's drank the Kool-Aid
+[22:08.340 --> 22:10.100]  of a couple of people basically saying
+[22:10.100 --> 22:11.380]  the whole thing's a Ponzi scheme
+[22:11.380 --> 22:12.900]  and the whole thing's nonsense.
+[22:12.900 --> 22:14.620]  Inside the company isn't.
+[22:14.620 --> 22:16.580]  And inside the company, we don't think that.
+[22:16.620 --> 22:17.740]  And inside the company,
+[22:17.740 --> 22:19.820]  there's an awful lot of people who've spent 30 years
+[22:19.820 --> 22:21.220]  in financial services
+[22:21.220 --> 22:24.500]  who've helping make this company a decent company.
+[22:24.500 --> 22:26.620]  But the plan is, and that will remain,
+[22:26.620 --> 22:28.420]  we will once we build a revenue base
+[22:28.420 --> 22:30.020]  and do a couple of big deals.
+[22:30.020 --> 22:32.940]  You know, the coin GT deal, if we get that deal away,
+[22:32.940 --> 22:37.260]  that's a multi-billion dollar deal for Valereum.
+[22:37.260 --> 22:40.660]  So it's the biggest milestone for us.
+[22:40.660 --> 22:42.060]  It isn't happening next week.
+[22:42.060 --> 22:43.540]  So all the day traders buy with you,
+[22:43.540 --> 22:45.740]  I wouldn't bother thinking that's your day trade
+[22:45.740 --> 22:46.580]  because it isn't.
+[22:48.140 --> 22:50.220]  Cash position of funding:
+[22:51.620 --> 22:53.260]  We are obviously gonna get some cash
+[22:53.260 --> 22:55.380]  and we have agreed some cash.
+[22:55.380 --> 22:58.060]  We have had a number of the big,
+[22:59.500 --> 23:01.500]  I would say, mine owners
+[23:01.500 --> 23:02.860]  and the people that own the deals,
+[23:02.860 --> 23:07.620]  not just QGP, who have indicated
+[23:07.620 --> 23:09.980]  that they would like to invest in the company.
+[23:09.980 --> 23:11.940]  Particularly the price coming down as much.
+[23:11.940 --> 23:13.660]  We've had a few people come out of the woodwork.
+[23:13.900 --> 23:17.500]  There's no guarantee on any single,
+[23:17.500 --> 23:20.420]  for me, I think it's way more interesting down here now.
+[23:21.420 --> 23:24.460]  But I'm certainly not gonna pop up the day traders
+[23:24.460 --> 23:26.060]  by giving anybody anything.
+[23:26.060 --> 23:28.820]  But I still think it's a great company now.
+[23:29.740 --> 23:31.700]  It's an incredibly lean company.
+[23:31.700 --> 23:34.700]  So we probably chopped 60, 70%
+[23:34.700 --> 23:36.980]  of the cash burn out of the company.
+[23:36.980 --> 23:39.620]  So it's not an expensive company to run.
+[23:39.620 --> 23:41.420]  We could run for months and months and months
+[23:42.380 --> 23:46.420]  even if we didn't close the DA with our good friends.
+[23:46.420 --> 23:50.220]  So we'll undoubtedly consider when investors come along
+[23:50.220 --> 23:52.260]  and we've had two or three of those conversations.
+[23:52.260 --> 23:53.820]  But it's one of those things
+[23:54.940 --> 23:59.380]  that with the coupon that's just been agreed
+[23:59.380 --> 24:00.620]  we'll be okay, thanks.
+[24:03.580 --> 24:04.820]  Rebuilding investor confidence:
+[24:04.820 --> 24:07.020]  Now that's an interesting one, isn't it?
+[24:07.020 --> 24:10.100]  I think number one, we're not gonna give you a date,
+[24:10.100 --> 24:11.780]  we're not gonna be running commentary on the business.
+[24:11.780 --> 24:14.980]  We're gonna focus on delivering what we've done with QGP.
+[24:14.980 --> 24:16.900]  We wanna get the gold out.
+[24:16.900 --> 24:19.180]  We think there's a bunch of trades to do
+[24:19.180 --> 24:21.540]  where there's a bunch of other non-gold.
+[24:21.540 --> 24:24.460]  So there's probably four or five other big token trades
+[24:24.460 --> 24:26.460]  that we've currently got on the pipeline.
+[24:27.740 --> 24:30.260]  I think we're gonna switch to giving everybody
+[24:30.260 --> 24:33.900]  a bi-weekly update called Vox, I think it is,
+[24:33.900 --> 24:38.380]  where we'll post it, we'll probably post it as a reach.
+[24:38.380 --> 24:40.260]  It'll be on the website.
+[24:40.260 --> 24:43.940]  And we're not gonna carry on with what this company's done
+[24:43.940 --> 24:45.980]  and what other companies are do with,
+[24:45.980 --> 24:48.620]  can I announce this, that and the other,
+[24:48.620 --> 24:51.620]  hoping that the day traders are gonna do this and do that
+[24:51.620 --> 24:53.060]  and the share price is gonna pop up.
+[24:53.060 --> 24:55.700]  We're basically gonna give you two-week updates.
+[24:55.700 --> 24:57.980]  And if that doesn't suit your investment profile,
+[24:57.980 --> 25:00.660]  then again, we're probably not the right company for you.
+[25:00.660 --> 25:02.740]  But it's all gonna be, again,
+[25:02.740 --> 25:05.140]  hopefully that we've been consistent,
+[25:05.140 --> 25:06.540]  certainly since I arrived,
+[25:06.580 --> 25:08.940]  that we're going to focus on building a company
+[25:08.940 --> 25:10.540]  that can basically do some deals.
+[25:13.060 --> 25:14.660]  Progress with Valereum Markets:
+[25:15.660 --> 25:18.580]  what have we done with Valereum Markets?
+[25:18.580 --> 25:21.300]  We will be making an announcement
+[25:21.300 --> 25:23.500]  in the next couple of days on Bluebird.
+[25:23.500 --> 25:26.500]  I say we invested in three companies,
+[25:26.500 --> 25:29.140]  of which there's going, I think,
+[25:29.140 --> 25:30.820]  number one, we're very happy.
+[25:30.820 --> 25:32.900]  I know Adam's on this call with Fidium.
+[25:33.940 --> 25:36.340]  We adopted the DigiShares platform
+[25:37.180 --> 25:39.300]  and we're massive fans of DigiShares.
+[25:39.300 --> 25:41.820]  And I wouldn't be at all surprised to see DigiShares
+[25:41.820 --> 25:44.900]  do a funding deal themselves in the very near future.
+[25:44.900 --> 25:47.140]  They've had a fabulous year.
+[25:47.140 --> 25:48.780]  The markets, it still remains
+[25:48.780 --> 25:51.180]  the core strategic objective of the company.
+[25:52.140 --> 25:54.620]  We're just gonna focus around real world assets,
+[25:54.620 --> 25:57.220]  mainstream, very much around,
+[25:57.220 --> 26:01.620]  we think there's an awful lot of mileage in gold mines
+[26:01.940 --> 26:06.380]  and silver and magnesium and titanium.
+[26:06.380 --> 26:08.620]  We will keep announcing strategic partnerships.
+[26:08.620 --> 26:10.100]  So there are two of those.
+[26:11.300 --> 26:12.620]  They look like they go in one ear
+[26:12.620 --> 26:13.700]  and out the other to investors,
+[26:13.700 --> 26:15.060]  which I don't know is more about,
+[26:15.060 --> 26:17.740]  says more about what we're doing or their assessment.
+[26:17.740 --> 26:19.980]  I personally think the ones we've done with Integra
+[26:19.980 --> 26:23.140]  and RWA, there'll be one or two more,
+[26:23.140 --> 26:24.660]  I think they'll get announced.
+[26:24.660 --> 26:25.700]  We all think they're really,
+[26:25.700 --> 26:27.020]  really good strategic partnerships.
+[26:27.020 --> 26:29.100]  We speak to these guys most days.
+[26:29.140 --> 26:31.660]  We're working on the VGOLD deal with all of them.
+[26:31.660 --> 26:35.740]  So, and the one or two that we'll announce for distribution.
+[26:36.860 --> 26:38.500]  And we'll just keep doing the ones
+[26:38.500 --> 26:41.020]  that we think are the very best ones to do.
+[26:41.020 --> 26:43.300]  More on a partnership and rev share model
+[26:43.300 --> 26:45.860]  with them going forward than taking strategic.
+[26:45.860 --> 26:48.620]  There's one that we would like to take a strategic stake in,
+[26:48.620 --> 26:52.620]  but we'll see how this next month or two plays out.
+[26:54.940 --> 26:56.700]  Yep, so I think our tokenization pipeline
+[26:56.700 --> 26:57.820]  are pretty much summed up.
+[26:57.860 --> 27:00.660]  We're gonna focus on the stuff that you've seen
+[27:00.660 --> 27:03.580]  to don't expect anything different.
+[27:03.580 --> 27:07.300]  So apologies for that, but that's what we're gonna do.
+[27:07.300 --> 27:08.820]  Partnerships, we've mentioned
+[27:11.980 --> 27:13.540]  that they're the cornerstone for anybody
+[27:13.540 --> 27:15.500]  that's actually seen our roadmap.
+[27:15.500 --> 27:18.060]  It's incredibly clear that around,
+[27:18.060 --> 27:22.220]  it's around crypto payments or payments
+[27:22.220 --> 27:26.220]  and developing tokenization ecosystem.
+[27:26.380 --> 27:28.620]  And it's an incredibly simple business model.
+[27:31.220 --> 27:33.220]  So amazingly, I've done that in 30 minutes,
+[27:33.220 --> 27:34.980]  even though we've allowed an hour.
+[27:36.180 --> 27:40.060]  I am going to ask there, I'm not opening up for Q&A.
+[27:40.060 --> 27:41.620]  I hope I've answered.
+[27:41.620 --> 27:44.420]  I can try and whip through if people want to stick on.
+[27:44.420 --> 27:45.900]  I've got some other questions.
+[27:45.900 --> 27:47.500]  So I will go some of the other questions.
+[27:47.500 --> 27:49.980]  And even though they probably didn't collate it,
+[27:49.980 --> 27:52.420]  I will try and slip through them very quickly.
+[27:53.500 --> 27:55.540]  So what level of confidence do we have?
+[27:55.540 --> 27:58.220]  QGP will enter into the exclusive agreement announced.
+[27:58.220 --> 27:59.900]  They've already signed it.
+[27:59.900 --> 28:01.620]  Do we have a value of VGOLD?
+[28:03.020 --> 28:05.340]  I think you can find that on the VGOLD website.
+[28:05.340 --> 28:10.340]  And it's three, I think it's 15, $16 billion,
+[28:10.340 --> 28:14.260]  3 million ounces of gold underpinning VGOLD core.
+[28:15.340 --> 28:17.020]  That's to be finally verified,
+[28:17.020 --> 28:20.420]  but we've had all the third party documents confirming that.
+[28:21.540 --> 28:24.020]  That is called an NI 43 101.
+[28:26.140 --> 28:29.180]  The mentioned around about the bond,
+[28:29.180 --> 28:30.820]  that if we go back,
+[28:32.220 --> 28:33.780]  then we end up back at the same position
+[28:33.780 --> 28:35.300]  if we don't take VGOLD core.
+[28:37.620 --> 28:39.820]  QGP fails, what is our plan B?
+[28:39.820 --> 28:41.820]  We don't think they're going to fail,
+[28:41.820 --> 28:43.260]  but we have a couple of plan Bs.
+[28:43.260 --> 28:45.140]  We get approached quite often, right?
+[28:45.140 --> 28:46.820]  We had one over the weekend.
+[28:46.820 --> 28:50.260]  I don't think the company is short of survival plans.
+[28:50.260 --> 28:52.380]  Yep, so how much institutional interest
+[28:52.380 --> 28:53.980]  have we had on VGOLD thus far?
+[28:53.980 --> 28:55.740]  It's in the several hundred millions.
+[28:56.620 --> 28:59.180]  And that's just the distribution partners
+[28:59.180 --> 29:01.180]  that we've tested the market with.
+[29:01.180 --> 29:05.220]  If QGP walk out, does VGOLD still exist?
+[29:05.220 --> 29:06.060]  Yes, it does.
+[29:07.340 --> 29:09.180]  They own VGOLD core.
+[29:09.180 --> 29:11.260]  I don't think it's in either of our interests
+[29:11.260 --> 29:13.340]  for us to part ways with QGP,
+[29:13.340 --> 29:15.500]  even though I would completely understand
+[29:15.500 --> 29:18.540]  them being in control of the VGOLD core.
+[29:18.540 --> 29:22.100]  I don't understand them being incredibly upset
+[29:22.100 --> 29:24.500]  on the basis they've been called every name under the sun.
+[29:24.500 --> 29:26.100]  I think it's incredibly unfair.
+[29:29.100 --> 29:30.540]  I'm going to ignore some of the stuff
+[29:30.540 --> 29:32.260]  of VGOLD is essentially worthless
+[29:32.260 --> 29:33.700]  because that clearly somebody doesn't really know
+[29:33.700 --> 29:35.060]  what they're talking about.
+[29:36.380 --> 29:38.420]  How do we gain investor trust?
+[29:38.420 --> 29:40.060]  I think there's only one thing, right?
+[29:40.060 --> 29:42.260]  It's go and make some money.
+[29:42.260 --> 29:44.220]  So we're going to focus on doing that.
+[29:45.540 --> 29:48.260]  Dictate revenues, obviously we're not going to do that.
+[29:48.980 --> 29:51.300]  We don't give forward guidance, especially,
+[29:51.300 --> 29:53.220]  so we don't do that, but that's,
+[29:53.220 --> 29:55.340]  people know what the fee pool is typically.
+[29:56.380 --> 29:58.940]  How far away from NASDAQ listing?
+[29:58.940 --> 30:03.420]  If it goes well, I think that's a three to six month minimum.
+[30:04.740 --> 30:07.100]  They both told us that once we file
+[30:07.100 --> 30:09.140]  and we've done everything to be in that position,
+[30:09.140 --> 30:11.100]  it's three to four months after that.
+[30:13.980 --> 30:17.220]  A lot of nonsense about this is an exit strategy from QGP.
+[30:17.220 --> 30:19.740]  That would be slightly bizarre given the hundreds
+[30:19.740 --> 30:22.700]  and thousands of dollars they've spent on legal fees
+[30:22.700 --> 30:25.100]  and paid us and the thousands of hours.
+[30:25.100 --> 30:27.820]  So I'd be quite surprised if that was the case.
+[30:27.820 --> 30:30.220]  Bluebird, there'll be a separate announcement.
+[30:30.220 --> 30:33.660]  It's been incredibly difficult us working with Bluebird
+[30:33.660 --> 30:34.740]  for a whole bunch of reasons.
+[30:34.740 --> 30:36.580]  They're the other side of the world.
+[30:36.580 --> 30:39.620]  They don't really focus on the stuff that we focus on.
+[30:39.620 --> 30:41.660]  We've tried to get something to work,
+[30:41.660 --> 30:43.220]  but you'll see an announcement
+[30:43.220 --> 30:44.540]  What's Seb's role?
+[30:44.540 --> 30:47.100]  Seb kind of is the CAO.
+[30:47.100 --> 30:49.020]  He does pretty much everything and anything.
+[30:50.540 --> 30:53.940]  Grant, Jamie and I and Carl are kind of the day to day
+[30:53.940 --> 30:54.780]  in Valerian.
+[30:56.100 --> 30:58.740]  Mark and Pete do BD.
+[30:58.740 --> 31:01.380]  Seb probably picks up all the rubbish
+[31:01.380 --> 31:03.540]  because there's an awful lot of admin in between.
+[31:03.540 --> 31:05.260]  Most people would call him a CAO.
+[31:07.180 --> 31:10.660]  The ISL team of which they are probably seven
+[31:10.660 --> 31:14.140]  people, they tend to, we're probably working on eight,
+[31:14.140 --> 31:16.140]  nine deals that they bought in.
+[31:16.140 --> 31:18.900]  And we had to swap them into the company
+[31:18.900 --> 31:21.540]  and out of their warrants to make sure
+[31:21.540 --> 31:25.620]  that their interests were aligned with Valerians and QGPs.
+[31:25.620 --> 31:26.860]  So that's how we did that.
+[31:28.860 --> 31:31.060]  Board level of confidence in turning down cash
+[31:31.060 --> 31:34.820]  in favor of the gold token, if and when it's verified,
+[31:34.820 --> 31:36.820]  which I'm pretty confident about.
+[31:36.820 --> 31:38.740]  I've been very confident about that.
+[31:38.740 --> 31:40.420]  Which I'm pretty confident about.
+[31:40.420 --> 31:42.060]  I can't believe I'll be proven wrong,
+[31:42.060 --> 31:44.380]  but you never know these things.
+[31:44.380 --> 31:46.300]  It's an incredible deal for the company
+[31:46.300 --> 31:48.580]  if it turns out to be true, right?
+[31:48.580 --> 31:50.740]  Now you can, people can judge for themselves.
+[31:51.820 --> 31:54.300]  So we've gone an awful long way down the road
+[31:54.300 --> 31:56.220]  and it's an incredibly generous offer
+[31:56.220 --> 31:58.700]  to profit share from QGP.
+[32:00.100 --> 32:02.460]  Do we plan to provide greater transparency to investors?
+[32:02.460 --> 32:03.580]  Yes, sort of.
+[32:04.660 --> 32:07.460]  I'm gonna share the roadmap,
+[32:07.700 --> 32:11.300]  but we're certainly gonna share by weekly updates.
+[32:14.220 --> 32:16.780]  We'll just go through to one last one.
+[32:16.780 --> 32:18.860]  Sudden change in strategic direction.
+[32:18.860 --> 32:20.380]  I don't really think we have for the last year,
+[32:20.380 --> 32:23.100]  so I'm not really sure what that's about.
+[32:23.100 --> 32:24.580]  Clear vision and mission statement.
+[32:24.580 --> 32:26.820]  I would have hoped that was relatively clear
+[32:26.820 --> 32:27.740]  what we're doing.
+[32:27.740 --> 32:29.660]  We're a tokenization company.
+[32:29.660 --> 32:32.820]  We're very, very focused at the moment on getting V gold up
+[32:32.820 --> 32:35.260]  because we believe that opportunity is huge.
+[32:35.260 --> 32:36.460]  It's as simple as that.
+[32:38.460 --> 32:41.460]  Decision of last minute deviation from the coupon payment.
+[32:41.460 --> 32:43.860]  Not really, we've been talking to QGP
+[32:43.860 --> 32:46.260]  probably three or four weeks about it.
+[32:47.540 --> 32:49.740]  Probably the last couple of days,
+[32:49.740 --> 32:52.900]  we kind of needed to either do a deal or not do a deal.
+[32:52.900 --> 32:55.140]  And in the end, we've agreed to try and do a deal
+[32:55.140 --> 32:56.300]  in the next couple of weeks.
+[32:56.300 --> 32:59.620]  And if we don't do a deal, we'll revert back to the coupon.
+[32:59.620 --> 33:02.500]  Investor confidence appears to be an all time low.
+[33:02.500 --> 33:04.300]  For those people, I would suggest
+[33:04.300 --> 33:05.820]  you're not in the right company
+[33:05.860 --> 33:07.380]  and there's better companies on that quiz
+[33:07.380 --> 33:09.020]  for you to go and invest in.
+[33:09.020 --> 33:11.300]  And hopefully you either made money
+[33:11.300 --> 33:14.100]  or hopefully you made money, but I'm sorry if you haven't.
+[33:15.100 --> 33:17.700]  Do I do the shareholders believe the common board
+[33:17.700 --> 33:20.100]  has added value while taking the company forward?
+[33:20.100 --> 33:22.540]  I don't know.
+[33:22.540 --> 33:24.460]  And I'm certainly not gonna try and answer it.
+[33:24.460 --> 33:26.780]  So that's a list of about 30 that I had.
+[33:27.980 --> 33:29.780]  I am gonna stop there.
+[33:30.780 --> 33:34.420]  I'm also gonna offer, if people have follow up questions
+[33:34.420 --> 33:36.860]  or comments to take some shareholder sentiment,
+[33:36.860 --> 33:39.980]  please send them to info in the same way you sent these.
+[33:40.860 --> 33:42.780]  I hope that has been helpful.
+[33:44.100 --> 33:46.700]  I do appreciate that, but again,
+[33:46.700 --> 33:48.820]  most of you guys have sold the shares down, right?
+[33:48.820 --> 33:50.900]  Because it's not us and it's not QGP.
+[33:50.900 --> 33:53.220]  So the reason why the shares went down to here
+[33:53.220 --> 33:55.940]  is for a handful of people that have managed to
+[33:57.300 --> 34:00.260]  create stories that basically are very negative
+[34:00.260 --> 34:03.860]  on the company, but we're gonna focus on revenues.
+[34:03.860 --> 34:05.620]  I do care about the share price,
+[34:05.620 --> 34:07.780]  but I care about revenues a lot more.
+[34:07.780 --> 34:09.220]  So thanks for joining.
+[34:10.220 --> 34:13.780]  For many of those people, in fact, Mo Yusef,
+[34:13.780 --> 34:16.580]  I noticed you and I know each other many ways back,
+[34:16.580 --> 34:19.860]  but appreciate everybody dialing in this evening.
+[34:19.860 --> 34:22.420]  Please follow up with other questions if you got them.
